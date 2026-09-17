@@ -161,6 +161,17 @@ window.WSMC_CAL_SNAPSHOT={"generated":"2026-09-17T19:37:26+00:00","timezone":"Am
   var root = document.getElementById("wsmc-cal-root");
   if (!root) { return; }
   var $ = function (id) { return document.getElementById(id); };
+
+  /* Full-bleed fix: the CSS centres the page on the viewport only if the Squarespace block is itself centred.
+     Measure where the wrapper actually landed and pull it to the viewport's left edge. */
+  function fitFullBleed() {
+    root.style.marginLeft = "";
+    var off = root.getBoundingClientRect().left;
+    if (Math.abs(off) > 0.5) { root.style.marginLeft = (parseFloat(getComputedStyle(root).marginLeft) - off) + "px"; }
+  }
+  fitFullBleed();
+  window.addEventListener("resize", fitFullBleed);
+  window.addEventListener("load", fitFullBleed);
   var state = { cat: "all", q: "", view: "list", month: null, day: null };
   var events = [];
 
