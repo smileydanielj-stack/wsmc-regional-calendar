@@ -20,6 +20,13 @@
 .wsmc-cal *, .wsmc-cal *::before, .wsmc-cal *::after { box-sizing: border-box; margin: 0; padding: 0; }
 .wsmc-cal a { color: var(--teal); }
 .wsmc-cal [hidden] { display: none !important; }
+/* Squarespace's site-wide scroll animations keep headings invisible (preSlide, preFade...) until they scroll into
+   view. This list re-renders on every filter click, so opt the calendar's text out of them. */
+.wsmc-cal h1, .wsmc-cal h2, .wsmc-cal h3, .wsmc-cal h4, .wsmc-cal p, .wsmc-cal li, .wsmc-cal a, .wsmc-cal button,
+.wsmc-cal [class*="preSlide"], .wsmc-cal [class*="preFade"], .wsmc-cal [class*="preScale"], .wsmc-cal [class*="preClip"], .wsmc-cal [class*="preFlex"] {
+  opacity: 1 !important; transform: none !important; clip-path: none !important; animation: none !important;
+}
+.wsmc-cal h1, .wsmc-cal h2, .wsmc-cal h3, .wsmc-cal h4, .wsmc-cal p { transition: none !important; }
 .wsmc-cal .cal-container { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
 /* Hero */
 .wsmc-cal .cal-hero {
@@ -170,6 +177,13 @@ window.WSMC_CAL_SNAPSHOT={"generated":"2026-09-17T19:37:26+00:00","timezone":"Am
     if (Math.abs(off) > 0.5) { root.style.marginLeft = (parseFloat(getComputedStyle(root).marginLeft) - off) + "px"; }
   }
   fitFullBleed();
+  /* Squarespace pads the section above and below this block with its own grey background.
+     Tint just this section so the padding blends into the hero (top) and the credits band (bottom). */
+  (function () {
+    var sec = root.closest ? root.closest("section") : null;
+    if (sec) { sec.style.background = "linear-gradient(to bottom, #152a45 0, #152a45 50%, #f0f2f4 50%, #f0f2f4 100%)"; }
+    if (sec) { Array.prototype.forEach.call(sec.querySelectorAll(".section-border, .section-background"), function (n) { n.style.background = "transparent"; }); }
+  })();
   window.addEventListener("resize", fitFullBleed);
   window.addEventListener("load", fitFullBleed);
   var state = { cat: "all", q: "", view: "list", month: null, day: null };
