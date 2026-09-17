@@ -45,6 +45,16 @@ Data files are committed back only when events actually change. If a source is d
 carried forward, the site still updates, and the run is marked failed so GitHub emails the repository owner.
 Run it by hand from the Actions tab with "Run workflow".
 
+## The Squarespace page
+
+Published at https://www.wsmcoop.org/calendar ("Calendar" in the main navigation), as one Code block holding the whole of
+`wsmc-regional-calendar.html`. The page loads its data from the hosted feed, so routine data changes need no re-paste.
+Re-paste the file into the Code block only when the page's own HTML, CSS, or script changes.
+
+Three things in the page exist because of Squarespace: it measures its own position and pulls itself to full width
+(the Code block is not centred in the section), it tints the section padding to match, and it opts its headings out of
+the site-wide scroll animations, which otherwise hide list titles until they animate in.
+
 ## Preview locally
 
 `python3 -m http.server 8765` in this folder, then open http://localhost:8765/wsmc-regional-calendar.html
