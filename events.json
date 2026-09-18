@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-17T19:37:26+00:00",
+ "generated": "2026-09-18T01:02:02+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -11,7 +11,7 @@
  "sources": {
   "naces": {
    "ok": true,
-   "count": 112
+   "count": 114
   },
   "marex": {
    "ok": true,
@@ -36,20 +36,6 @@
    "source": "marex",
    "sourceLabel": "Marine Exchange of Puget Sound",
    "url": "https://wdfw.wa.gov/about/commission/meetings/2026"
-  },
-  {
-   "id": "naces-71b60cb8192a",
-   "title": "WSMC TTX",
-   "start": "2026-09-10T07:00-07:00",
-   "end": "2026-09-10T17:00-07:00",
-   "allDay": false,
-   "category": "wsmc",
-   "subtype": "Table Top",
-   "location": "Seattle, WA",
-   "notes": "FOS Coordinator, SOS Coordinator, PIO(JIC) presence requested",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
   },
   {
    "id": "naces-cabaabf845f2",
@@ -1814,6 +1800,34 @@
    "source": "marex",
    "sourceLabel": "Marine Exchange of Puget Sound",
    "url": "https://portofkalama.com/discover-the-port/board-of-commissioners/"
+  },
+  {
+   "id": "naces-3a0f350e6200",
+   "title": "ECY Spills IMT TTX Training",
+   "start": "2027-03-04T08:00-08:00",
+   "end": "2027-03-04T16:00-08:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Worst-case Table Top",
+   "location": "",
+   "notes": "SOS Coordinator, PIO(JIC), Trustee Agency Environment Unit presence requested",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
+   "id": "naces-96a199d318f2",
+   "title": "ECY Spills IMT TTX",
+   "start": "2027-03-11T08:00-08:00",
+   "end": "2027-03-11T16:00-08:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Worst-case Table Top",
+   "location": "",
+   "notes": "SOS Coordinator, PIO(JIC), Trustee Agency Environment Unit presence requested",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
   },
   {
    "id": "naces-e87957d196c2",
