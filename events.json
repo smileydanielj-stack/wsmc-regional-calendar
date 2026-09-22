@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-20T01:08:04+00:00",
+ "generated": "2026-09-22T01:02:07+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -472,6 +472,20 @@
    "url": "https://apps.ecology.wa.gov/naces/"
   },
   {
+   "id": "naces-15a4022aa698",
+   "title": "Centerline Logistics GRP DPX",
+   "start": "2026-10-13T09:00-07:00",
+   "end": "2026-10-13T13:00-07:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Deployment-GRP",
+   "location": "7900 NW St Helens Rd Portland, OR 97210",
+   "notes": "OR DEQ, WA ECY presence requested",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
    "id": "marex-633a3ffbb86a",
    "title": "Port of Grays Harbor — Commission Meeting",
    "start": "2026-10-13T09:00-07:00",
@@ -512,20 +526,6 @@
    "source": "marex",
    "sourceLabel": "Marine Exchange of Puget Sound",
    "url": "https://www.portvanusa.com/commission/agendas-minutes/"
-  },
-  {
-   "id": "naces-3ba059067cc5",
-   "title": "Centerline Logistics DPX",
-   "start": "2026-10-13T10:00-07:00",
-   "end": "2026-10-13T12:00-07:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Deployment",
-   "location": "7900 NW St Helens Rd Portland, OR 97210",
-   "notes": "OR DEQ, WA ECY presence requested",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
   },
   {
    "id": "marex-cf8275d70ff7",
