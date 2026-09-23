@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-22T01:02:07+00:00",
+ "generated": "2026-09-23T01:01:01+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -15,7 +15,7 @@
   },
   "marex": {
    "ok": true,
-   "count": 1181
+   "count": 1182
   },
   "committees": {
    "ok": true,
@@ -23,62 +23,6 @@
   }
  },
  "events": [
-  {
-   "id": "naces-cabaabf845f2",
-   "title": "Kinder Morgan Liquids Terminal GRP DPX",
-   "start": "2026-09-15T09:00-07:00",
-   "end": "2026-09-15T15:00-07:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Deployment-GRP",
-   "location": "2720 13th Ave SW Seattle Wa 98134",
-   "notes": "WADOE/ USCG presence requested",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
-  {
-   "id": "naces-7f5b0a0917f8",
-   "title": "NRCES TTX",
-   "start": "2026-09-15T09:00-07:00",
-   "end": "2026-09-15T12:00-07:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Deployment, Table Top",
-   "location": "9520 10th Avenue South Seattle, WA 98108",
-   "notes": "ECY presence requested",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
-  {
-   "id": "marex-5804dca234a9",
-   "title": "Port of Tacoma — Regular Commission Meeting",
-   "start": "2026-09-15T12:00-07:00",
-   "end": "2026-09-15T14:00-07:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "Fabulich Center, 3600 Port of Tacoma Rd, Room 104, Tacoma, WA",
-   "notes": "Regular Commission Meeting.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://www.portoftacoma.com/commission-meetings"
-  },
-  {
-   "id": "marex-5eee6da5b57d",
-   "title": "Port of Bellingham — Board of Commissioners Open Public Meeting",
-   "start": "2026-09-15T16:00-07:00",
-   "end": "2026-09-15T17:30-07:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "Harbor Center Room, 1801 Roeder Ave, Bellingham, WA",
-   "notes": "Board of Commissioners Open Public Meeting.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://www.portofbellingham.com/calendar.aspx"
-  },
   {
    "id": "naces-16f8c5cbcfb4",
    "title": "Maritime Fire & Safety Association GRP DPX",
@@ -190,20 +134,6 @@
    "source": "marex",
    "sourceLabel": "Marine Exchange of Puget Sound",
    "url": "https://meetings.portseattle.org/"
-  },
-  {
-   "id": "naces-95e98868027b",
-   "title": "Columbia Basin Railroad Mobile TTX",
-   "start": "2026-09-23T07:00-07:00",
-   "end": "2026-09-23T13:00-07:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Table Top",
-   "location": "Warden, Wa",
-   "notes": "",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
   },
   {
    "id": "naces-7fe65db3b09a",
@@ -946,6 +876,20 @@
    "source": "marex-committee",
    "sourceLabel": "Marine Exchange of Puget Sound",
    "url": "https://marexps.com/puget-sound-harbor-safety-committee/"
+  },
+  {
+   "id": "naces-cb3cd083ff50",
+   "title": "Columbia Basin Railroad Mobile TTX",
+   "start": "2026-11-04T07:00-08:00",
+   "end": "2026-11-04T13:00-08:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Table Top",
+   "location": "Warden, Wa",
+   "notes": "",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
   },
   {
    "id": "marex-c57f9f95dbea",
@@ -1870,6 +1814,20 @@
    "source": "naces",
    "sourceLabel": "WA Ecology NACES",
    "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
+   "id": "marex-9a57585e303b",
+   "title": "Washington State Maritime Cooperative Spill Drill",
+   "start": "2027-11-02",
+   "end": "2027-11-04",
+   "allDay": true,
+   "category": "wsmc",
+   "subtype": "",
+   "location": "Marine Spill Response Corporation, 1330 Industry St, Everett, WA 98203, USA",
+   "notes": "",
+   "source": "marex",
+   "sourceLabel": "Marine Exchange of Puget Sound",
+   "url": "https://marexps.com/wa-maritime-calendar/"
   },
   {
    "id": "naces-82fdda9f8fcb",
