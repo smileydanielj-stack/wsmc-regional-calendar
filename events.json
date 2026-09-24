@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T01:02:13+00:00",
+ "generated": "2026-09-24T12:41:09+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -11,7 +11,7 @@
  "sources": {
   "naces": {
    "ok": true,
-   "count": 116
+   "count": 117
   },
   "marex": {
    "ok": true,
@@ -368,6 +368,20 @@
    "category": "drill",
    "subtype": "Deployment, Table Top",
    "location": "TBD",
+   "notes": "",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
+   "id": "naces-4ba51e71f0e2",
+   "title": "Wilcox + Flegel",
+   "start": "2026-10-09T14:00-07:00",
+   "end": "2026-10-09T16:00-07:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Deployment",
+   "location": "Wilcox + Flegel Longview Terminal - 110 Panel Way Longview, WA",
    "notes": "",
    "source": "naces",
    "sourceLabel": "WA Ecology NACES",
