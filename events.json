@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23T01:01:01+00:00",
+ "generated": "2026-09-24T01:02:13+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -11,7 +11,7 @@
  "sources": {
   "naces": {
    "ok": true,
-   "count": 114
+   "count": 116
   },
   "marex": {
    "ok": true,
@@ -23,20 +23,6 @@
   }
  },
  "events": [
-  {
-   "id": "naces-16f8c5cbcfb4",
-   "title": "Maritime Fire & Safety Association GRP DPX",
-   "start": "2026-09-16T08:00-07:00",
-   "end": "2026-09-16T15:00-07:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Deployment-GRP",
-   "location": "",
-   "notes": "Ecology/DEQ presence requested",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
   {
    "id": "naces-dc43012d2770",
    "title": "BP Cherry Point Refinery TTX",
@@ -1450,6 +1436,20 @@
    "source": "marex",
    "sourceLabel": "Marine Exchange of Puget Sound",
    "url": "https://www.portoftacoma.com/commission-meetings"
+  },
+  {
+   "id": "naces-ba3699b092d1",
+   "title": "PetroCard",
+   "start": "2026-12-16T09:00-08:00",
+   "end": "2026-12-16T10:00-08:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Deployment",
+   "location": "361 Dock St., Westport, WA",
+   "notes": "",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
   },
   {
    "id": "naces-ae3d682443a2",
