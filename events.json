@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T12:41:09+00:00",
+ "generated": "2026-09-25T01:02:34+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -23,48 +23,6 @@
   }
  },
  "events": [
-  {
-   "id": "naces-dc43012d2770",
-   "title": "BP Cherry Point Refinery TTX",
-   "start": "2026-09-17T09:00-07:00",
-   "end": "2026-09-17T15:00-07:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Table Top",
-   "location": "",
-   "notes": "",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
-  {
-   "id": "marex-65fdd5014607",
-   "title": "WA Board of Pilotage Commissioners — Public Meeting",
-   "start": "2026-09-17T09:00-07:00",
-   "end": "2026-09-17T11:00-07:00",
-   "allDay": false,
-   "category": "regulatory",
-   "subtype": "",
-   "location": "",
-   "notes": "Regular public meeting of the WA Board of Pilotage Commissioners. Meets 3rd Thursday monthly.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://pilotage.wa.gov/meetings"
-  },
-  {
-   "id": "marex-f9a4bd459a21",
-   "title": "Port of Anacortes — Regular Commission Meeting",
-   "start": "2026-09-17T18:00-07:00",
-   "end": "2026-09-17T19:30-07:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "317 Commercial Ave, Anacortes, WA",
-   "notes": "Regular Commission Meeting. Meets 1st and 3rd Thursdays at 6:00 PM.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://www.portofanacortes.com/governance/commission-meetings/"
-  },
   {
    "id": "naces-e9cbce60a8f1",
    "title": "Alon Asphalt Company GRP DPX",
@@ -374,8 +332,8 @@
    "url": "https://apps.ecology.wa.gov/naces/"
   },
   {
-   "id": "naces-4ba51e71f0e2",
-   "title": "Wilcox + Flegel",
+   "id": "naces-1e93fd6ecada",
+   "title": "Wilcox + Flegel Mobile DPX",
    "start": "2026-10-09T14:00-07:00",
    "end": "2026-10-09T16:00-07:00",
    "allDay": false,
@@ -1452,8 +1410,8 @@
    "url": "https://www.portoftacoma.com/commission-meetings"
   },
   {
-   "id": "naces-ba3699b092d1",
-   "title": "PetroCard",
+   "id": "naces-dd39d1dd19e8",
+   "title": "PetroCard Mobile DPX",
    "start": "2026-12-16T09:00-08:00",
    "end": "2026-12-16T10:00-08:00",
    "allDay": false,
