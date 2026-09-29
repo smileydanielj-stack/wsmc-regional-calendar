@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T01:02:34+00:00",
+ "generated": "2026-09-29T01:08:40+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -15,7 +15,7 @@
   },
   "marex": {
    "ok": true,
-   "count": 1182
+   "count": 1184
   },
   "committees": {
    "ok": true,
@@ -1704,6 +1704,20 @@
    "url": "https://portofkalama.com/discover-the-port/board-of-commissioners/"
   },
   {
+   "id": "marex-efa8a98d647a",
+   "title": "MXPS Holiday Party & Open House!",
+   "start": "2027-01-28T16:30-08:00",
+   "end": "2027-01-28T20:00-08:00",
+   "allDay": false,
+   "category": "industry",
+   "subtype": "",
+   "location": "Marine Exchange of Puget Sound, 100 W Harrison St Suite S560, Seattle, WA 98119, USA",
+   "notes": "",
+   "source": "marex",
+   "sourceLabel": "Marine Exchange of Puget Sound",
+   "url": "https://marexps.com/wa-maritime-calendar/"
+  },
+  {
    "id": "naces-3a0f350e6200",
    "title": "ECY Spills IMT TTX Training",
    "start": "2027-03-04T08:00-08:00",
@@ -1786,6 +1800,20 @@
    "source": "naces",
    "sourceLabel": "WA Ecology NACES",
    "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
+   "id": "marex-325bd5bd5628",
+   "title": "MXPS Annual Meeting",
+   "start": "2027-09-23T11:00-07:00",
+   "end": "2027-09-23T13:30-07:00",
+   "allDay": false,
+   "category": "industry",
+   "subtype": "",
+   "location": "Ballard Elks Lodge #827, 6411 Seaview Ave NW, Seattle, WA 98107, USA",
+   "notes": "",
+   "source": "marex",
+   "sourceLabel": "Marine Exchange of Puget Sound",
+   "url": "https://marexps.com/wa-maritime-calendar/"
   },
   {
    "id": "marex-9a57585e303b",
