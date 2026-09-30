@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T01:08:40+00:00",
+ "generated": "2026-09-30T01:10:08+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -11,7 +11,7 @@
  "sources": {
   "naces": {
    "ok": true,
-   "count": 117
+   "count": 120
   },
   "marex": {
    "ok": true,
@@ -23,62 +23,6 @@
   }
  },
  "events": [
-  {
-   "id": "naces-e9cbce60a8f1",
-   "title": "Alon Asphalt Company GRP DPX",
-   "start": "2026-09-22T08:00-07:00",
-   "end": "2026-09-22T13:00-07:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Deployment-GRP",
-   "location": "CPS-1 - Bracketts Landing",
-   "notes": "Department of Ecology presence requested",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
-  {
-   "id": "marex-87891982c4ab",
-   "title": "Port of Port Angeles — Commission Meeting",
-   "start": "2026-09-22T09:00-07:00",
-   "end": "2026-09-22T11:00-07:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "",
-   "notes": "Regular Commission Meeting.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://portofpa.com/about-us/port-commission/"
-  },
-  {
-   "id": "marex-4039365caa25",
-   "title": "Port of Vancouver USA — Commission Meeting",
-   "start": "2026-09-22T09:30-07:00",
-   "end": "2026-09-22T11:30-07:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "",
-   "notes": "Regular Commission Meeting.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://www.portvanusa.com/commission/agendas-minutes/"
-  },
-  {
-   "id": "marex-c12e50a79bca",
-   "title": "Port of Seattle — Commission Meeting",
-   "start": "2026-09-22T12:00-07:00",
-   "end": "2026-09-22T14:00-07:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "SEA Airport Conference Center, Seattle, WA",
-   "notes": "Regular Commission Meeting.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://meetings.portseattle.org/"
-  },
   {
    "id": "naces-7fe65db3b09a",
    "title": "NelsonReisner Mobile DPX",
@@ -215,6 +159,20 @@
    "subtype": "Worst-case Table Top",
    "location": "Tri-Cities Washington - Pasco or Richland",
    "notes": "WA ECY, OR DEQ, USCG/EPA, WA F&W, US F&W, FOS Coordinator, SOS Coordinator, PIO(JIC), Trustee Agency Environment Unit, Wildlife Response presence requested",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
+   "id": "naces-03625028e764",
+   "title": "Mike Larsen",
+   "start": "2026-10-01T09:00-07:00",
+   "end": "2026-10-01T11:00-07:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Deployment",
+   "location": "",
+   "notes": "",
    "source": "naces",
    "sourceLabel": "WA Ecology NACES",
    "url": "https://apps.ecology.wa.gov/naces/"
@@ -789,6 +747,20 @@
    "subtype": "Deployment-GRP",
    "location": "Fidalgo Bay, WA",
    "notes": "WADOE presence requested",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
+   "id": "naces-d6a527260b27",
+   "title": "BNSF Railway Company",
+   "start": "2026-11-02T01:00-08:00",
+   "end": "2026-11-02T16:00-08:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Deployment",
+   "location": "Spokane, WA",
+   "notes": "",
    "source": "naces",
    "sourceLabel": "WA Ecology NACES",
    "url": "https://apps.ecology.wa.gov/naces/"
@@ -1786,6 +1758,20 @@
    "source": "marex",
    "sourceLabel": "Marine Exchange of Puget Sound",
    "url": "https://marexps.com/wa-maritime-calendar/"
+  },
+  {
+   "id": "naces-e13cc4dace6d",
+   "title": "Phillips 66 - Portland Terminal OR WCD",
+   "start": "2027-06-09T12:00-07:00",
+   "end": "2027-06-10T16:00-07:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Worst-case Table Top",
+   "location": "",
+   "notes": "Oregon DEQ, FOS Coordinator, SOS Coordinator, PIO(JIC), Trustee Agency Environment Unit presence requested",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
   },
   {
    "id": "naces-61fc6b78f34f",
