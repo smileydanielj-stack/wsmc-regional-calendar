@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T01:17:30+00:00",
+ "generated": "2026-10-02T01:07:17+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -11,7 +11,7 @@
  "sources": {
   "naces": {
    "ok": true,
-   "count": 120
+   "count": 122
   },
   "marex": {
    "ok": true,
@@ -23,62 +23,6 @@
   }
  },
  "events": [
-  {
-   "id": "naces-d1077bcaf560",
-   "title": "NAS Whidbey Island DPX",
-   "start": "2026-09-24T08:00-07:00",
-   "end": "2026-09-24T12:00-07:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Deployment",
-   "location": "Crescent harbor",
-   "notes": "",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
-  {
-   "id": "naces-68e44a414c22",
-   "title": "BP- Olympic Pipeline GRP DPX",
-   "start": "2026-09-24T09:00-07:00",
-   "end": "2026-09-24T16:00-07:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Deployment-GRP",
-   "location": "Kellogg Island-North GRD 1.1",
-   "notes": "",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
-  {
-   "id": "marex-3674f032fdfa",
-   "title": "Marine Exchange of Puget Sound — Annual Meeting",
-   "start": "2026-09-24T11:30-07:00",
-   "end": "2026-09-24T13:30-07:00",
-   "allDay": false,
-   "category": "industry",
-   "subtype": "",
-   "location": "",
-   "notes": "Marine Exchange of Puget Sound Annual Meeting. Details/registration link to be added.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://marexps.com/wa-maritime-calendar/"
-  },
-  {
-   "id": "naces-adf5d3838a49",
-   "title": "Naval Base Kitsap - Bangor Mobile DPX",
-   "start": "2026-09-24T12:00-07:00",
-   "end": "2026-09-24T15:00-07:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Deployment",
-   "location": "Puget Sound Naval Shipyard CIA (Sinclair Inlet",
-   "notes": "",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
   {
    "id": "naces-840bfd91d538",
    "title": "Washington Marine Cleaning Mobile TTX",
@@ -117,20 +61,6 @@
    "subtype": "Worst-case Table Top",
    "location": "Tri-Cities Washington - Pasco or Richland",
    "notes": "WA ECY, OR DEQ, USCG/EPA, WA F&W, US F&W, FOS Coordinator, SOS Coordinator, PIO(JIC), Trustee Agency Environment Unit, Wildlife Response presence requested",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
-  {
-   "id": "naces-03625028e764",
-   "title": "Mike Larsen",
-   "start": "2026-10-01T09:00-07:00",
-   "end": "2026-10-01T11:00-07:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Deployment",
-   "location": "",
-   "notes": "",
    "source": "naces",
    "sourceLabel": "WA Ecology NACES",
    "url": "https://apps.ecology.wa.gov/naces/"
@@ -176,6 +106,20 @@
    "source": "marex",
    "sourceLabel": "Marine Exchange of Puget Sound",
    "url": "https://portolympia.com/community/"
+  },
+  {
+   "id": "naces-e89c951278dd",
+   "title": "Pacific Functional Fluids LLC Mobile DPX",
+   "start": "2026-10-06T09:00-07:00",
+   "end": "2026-10-06T10:00-07:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Deployment",
+   "location": "",
+   "notes": "",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
   },
   {
    "id": "marex-9cf067e40c3f",
@@ -1032,6 +976,20 @@
    "url": "https://apps.ecology.wa.gov/naces/"
   },
   {
+   "id": "naces-97951c47b445",
+   "title": "Oil Spill Task Force Annual Meeting",
+   "start": "2026-11-19T08:00-08:00",
+   "end": "2026-11-19T15:00-08:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Deployment",
+   "location": "",
+   "notes": "",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
    "id": "marex-736ef5ccefea",
    "title": "WA Board of Pilotage Commissioners — Public Meeting",
    "start": "2026-11-19T09:00-08:00",
@@ -1138,6 +1096,20 @@
    "category": "drill",
    "subtype": "Deployment, Table Top",
    "location": "Marine Vacuum Service headquarters conference room and adjacent yard, 1516 S Graham St, Seattle, WA 98108. The TTX will be conducted in the conference room from 8:00-10:00 a.m. The DPX will be conducted in the yard from 10:30 a.m.-1:30 p.m. as a controlled dry-land deployment simulating response at a marine oil-transfer location.",
+   "notes": "",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
+   "id": "naces-39e54e144202",
+   "title": "Naval Base Kitsap - Manchester Mobile TTX",
+   "start": "2026-12-03T09:00-08:00",
+   "end": "2026-12-03T12:00-08:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Table Top",
+   "location": "Manchester Fuel Depot Facility. JP5 petroleum pipeline between BLDG 12 and Truck Rack",
    "notes": "",
    "source": "naces",
    "sourceLabel": "WA Ecology NACES",
