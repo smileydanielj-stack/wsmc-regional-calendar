@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T01:07:17+00:00",
+ "generated": "2026-10-03T01:04:28+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -23,20 +23,6 @@
   }
  },
  "events": [
-  {
-   "id": "naces-840bfd91d538",
-   "title": "Washington Marine Cleaning Mobile TTX",
-   "start": "2026-09-25T07:00-07:00",
-   "end": "2026-09-25T10:00-07:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Table Top",
-   "location": "Washington Marine Cleaning conference room, Everett, WA",
-   "notes": "",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
   {
    "id": "marexc-692eae3c9ae6",
    "title": "Puget Sound Marine Firefighting Commission — Meeting",
