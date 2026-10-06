@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T01:04:28+00:00",
+ "generated": "2026-10-06T01:07:16+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -23,20 +23,6 @@
   }
  },
  "events": [
-  {
-   "id": "marexc-692eae3c9ae6",
-   "title": "Puget Sound Marine Firefighting Commission — Meeting",
-   "start": "2026-09-28T11:00-07:00",
-   "end": null,
-   "allDay": false,
-   "category": "regulatory",
-   "subtype": "",
-   "location": "Online (Microsoft Teams)",
-   "notes": "Meeting of the Puget Sound Marine Firefighting Commission. The join link and past minutes are on the commission page.",
-   "source": "marex-committee",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://marexps.com/puget-sound-marine-firefighting-commission/"
-  },
   {
    "id": "naces-291d8493447b",
    "title": "Andeavor Logistics NWPS WCD",
