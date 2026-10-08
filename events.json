@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-06T01:07:16+00:00",
+ "generated": "2026-10-08T01:10:03+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -23,20 +23,6 @@
   }
  },
  "events": [
-  {
-   "id": "naces-291d8493447b",
-   "title": "Andeavor Logistics NWPS WCD",
-   "start": "2026-09-30T07:00-07:00",
-   "end": "2026-09-30T16:00-07:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Worst-case Table Top",
-   "location": "Tri-Cities Washington - Pasco or Richland",
-   "notes": "WA ECY, OR DEQ, USCG/EPA, WA F&W, US F&W, FOS Coordinator, SOS Coordinator, PIO(JIC), Trustee Agency Environment Unit, Wildlife Response presence requested",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
   {
    "id": "naces-be02f3e2ba5a",
    "title": "Shell Pipeline (Seattle Terminal) DPX",
