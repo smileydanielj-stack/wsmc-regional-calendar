@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T01:10:03+00:00",
+ "generated": "2026-10-09T01:12:30+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -11,7 +11,7 @@
  "sources": {
   "naces": {
    "ok": true,
-   "count": 122
+   "count": 123
   },
   "marex": {
    "ok": true,
@@ -23,34 +23,6 @@
   }
  },
  "events": [
-  {
-   "id": "naces-be02f3e2ba5a",
-   "title": "Shell Pipeline (Seattle Terminal) DPX",
-   "start": "2026-10-01T10:00-07:00",
-   "end": "2026-10-01T14:00-07:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Deployment",
-   "location": "Harbor Island",
-   "notes": "",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
-  {
-   "id": "marex-674915f7ab66",
-   "title": "Port of Anacortes — Regular Commission Meeting",
-   "start": "2026-10-01T18:00-07:00",
-   "end": "2026-10-01T19:30-07:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "317 Commercial Ave, Anacortes, WA",
-   "notes": "Regular Commission Meeting. Meets 1st and 3rd Thursdays at 6:00 PM.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://www.portofanacortes.com/governance/commission-meetings/"
-  },
   {
    "id": "marex-28253d0a02fa",
    "title": "Port of Olympia — Public Port Tour",
@@ -834,6 +806,20 @@
    "source": "marex",
    "sourceLabel": "Marine Exchange of Puget Sound",
    "url": "https://portofkalama.com/discover-the-port/board-of-commissioners/"
+  },
+  {
+   "id": "naces-d9e08551c7e2",
+   "title": "Alon Asphalt Company",
+   "start": "2026-11-12T09:00-08:00",
+   "end": "2026-11-12T12:00-08:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Deployment",
+   "location": "Alon Asphalt tank farm pipeline",
+   "notes": "ECY presence requested",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
   },
   {
    "id": "marex-ed32844a33a8",
