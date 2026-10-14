@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10T01:10:19+00:00",
+ "generated": "2026-10-14T00:59:22+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -11,11 +11,11 @@
  "sources": {
   "naces": {
    "ok": true,
-   "count": 123
+   "count": 125
   },
   "marex": {
    "ok": true,
-   "count": 1184
+   "count": 1185
   },
   "committees": {
    "ok": true,
@@ -23,62 +23,6 @@
   }
  },
  "events": [
-  {
-   "id": "marex-28253d0a02fa",
-   "title": "Port of Olympia — Public Port Tour",
-   "start": "2026-10-06",
-   "end": "2026-10-06",
-   "allDay": true,
-   "category": "port",
-   "subtype": "",
-   "location": "",
-   "notes": "Free public tour of Port of Olympia marine terminal. Registration required: Tours@PortOlympia.com.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://portolympia.com/community/"
-  },
-  {
-   "id": "naces-e89c951278dd",
-   "title": "Pacific Functional Fluids LLC Mobile DPX",
-   "start": "2026-10-06T09:00-07:00",
-   "end": "2026-10-06T10:00-07:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Deployment",
-   "location": "",
-   "notes": "",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
-  {
-   "id": "marex-9cf067e40c3f",
-   "title": "Northwest Seaport Alliance — Managing Members Meeting",
-   "start": "2026-10-06T11:30-07:00",
-   "end": "2026-10-06T13:30-07:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "SEA Conference Center, Seattle, WA",
-   "notes": "Managing Members regular public meeting.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://www.nwseaportalliance.com/about-us/governance"
-  },
-  {
-   "id": "marex-fdc91a1aa415",
-   "title": "Port of Bellingham — Board of Commissioners Open Public Meeting",
-   "start": "2026-10-06T16:00-07:00",
-   "end": "2026-10-06T17:30-07:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "Harbor Center Room, 1801 Roeder Ave, Bellingham, WA",
-   "notes": "Board of Commissioners Open Public Meeting.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://www.portofbellingham.com/calendar.aspx"
-  },
   {
    "id": "naces-3311dc6aa272",
    "title": "Large Scale Equipment Deployment Exercise (LSEDPX)",
@@ -696,6 +640,20 @@
    "url": "https://www.portofanacortes.com/governance/commission-meetings/"
   },
   {
+   "id": "naces-92add298f3c8",
+   "title": "Tyree Oil Mobile TTX/DPX",
+   "start": "2026-11-09T08:00-08:00",
+   "end": "2026-11-09T14:00-08:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Deployment, Table Top",
+   "location": "",
+   "notes": "NWFF DOE presence requested",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
    "id": "marex-51d70fb6b87a",
    "title": "Port of Grays Harbor — Commission Meeting",
    "start": "2026-11-10T09:00-08:00",
@@ -722,20 +680,6 @@
    "source": "marex",
    "sourceLabel": "Marine Exchange of Puget Sound",
    "url": "https://portofpa.com/about-us/port-commission/"
-  },
-  {
-   "id": "naces-9d1322d7292a",
-   "title": "Tyree Oil Mobile TTX/DPX",
-   "start": "2026-11-10T09:00-08:00",
-   "end": "2026-11-10T14:00-08:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Deployment, Table Top",
-   "location": "",
-   "notes": "NWFF DOE presence requested",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
   },
   {
    "id": "marex-a1afbe66f7af",
@@ -960,6 +904,20 @@
    "source": "marex",
    "sourceLabel": "Marine Exchange of Puget Sound",
    "url": "https://www.portofanacortes.com/governance/commission-meetings/"
+  },
+  {
+   "id": "marex-407d20acae88",
+   "title": "Seattle Propeller Club — Maritime Industry Economic Forecast Breakfast",
+   "start": "2026-11-20T07:30-08:00",
+   "end": "2026-11-20T09:30-08:00",
+   "allDay": false,
+   "category": "industry",
+   "subtype": "",
+   "location": "Seattle Convention Center Arch Building, 705 Pike St, Seattle, WA 98101",
+   "notes": "Annual Maritime Industry Economic Forecast Breakfast hosted by the Seattle Propeller Club and Port of Seattle at Pacific Marine Expo, looking at the year ahead for the region's maritime and fishing industries. Details and registration:",
+   "source": "marex",
+   "sourceLabel": "Marine Exchange of Puget Sound",
+   "url": "https://www.seattlepropellerclub.org/economic-forecast-breakfast"
   },
   {
    "id": "marex-7e8d1b3c0daf",
