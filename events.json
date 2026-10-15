@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T00:59:22+00:00",
+ "generated": "2026-10-15T00:58:48+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -23,20 +23,6 @@
   }
  },
  "events": [
-  {
-   "id": "naces-3311dc6aa272",
-   "title": "Large Scale Equipment Deployment Exercise (LSEDPX)",
-   "start": "2026-10-07T08:00-07:00",
-   "end": "2026-10-07T15:00-07:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Deployment-Large Scale Equip",
-   "location": "Near Col R & Snake R Confluence",
-   "notes": "",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
   {
    "id": "marex-898b1061672e",
    "title": "WDFW Fish & Wildlife Commission Meeting",
