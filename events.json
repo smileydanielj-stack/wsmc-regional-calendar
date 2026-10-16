@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T00:58:48+00:00",
+ "generated": "2026-10-16T00:57:49+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -11,7 +11,7 @@
  "sources": {
   "naces": {
    "ok": true,
-   "count": 125
+   "count": 126
   },
   "marex": {
    "ok": true,
@@ -36,20 +36,6 @@
    "source": "marex",
    "sourceLabel": "Marine Exchange of Puget Sound",
    "url": "https://wdfw.wa.gov/about/commission/meetings/2026"
-  },
-  {
-   "id": "naces-ca85bfd9bf65",
-   "title": "Tacoma Rail TTX/DPX",
-   "start": "2026-10-08T09:00-07:00",
-   "end": "2026-10-08T13:00-07:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Deployment, Table Top",
-   "location": "TBD",
-   "notes": "",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
   },
   {
    "id": "naces-1e93fd6ecada",
@@ -775,6 +761,20 @@
    "subtype": "Worst-case Table Top",
    "location": "910 SW Spokane St",
    "notes": "DEQ- Fish and Wild, SOS Coordinator, Wildlife Response presence requested",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
+   "id": "naces-fd827f39fc3a",
+   "title": "Puget Sound Naval Shipyard Mobile DPX",
+   "start": "2026-11-17T09:00-08:00",
+   "end": "2026-11-17T11:00-08:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Deployment",
+   "location": "Sinclair Inlet Pier D.",
+   "notes": "",
    "source": "naces",
    "sourceLabel": "WA Ecology NACES",
    "url": "https://apps.ecology.wa.gov/naces/"
