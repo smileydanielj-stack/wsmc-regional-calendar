@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T00:59:07+00:00",
+ "generated": "2026-10-18T01:04:30+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -23,20 +23,6 @@
   }
  },
  "events": [
-  {
-   "id": "marex-898b1061672e",
-   "title": "WDFW Fish & Wildlife Commission Meeting",
-   "start": "2026-10-08",
-   "end": "2026-10-10",
-   "allDay": true,
-   "category": "regulatory",
-   "subtype": "",
-   "location": "Olympia, WA (hybrid)",
-   "notes": "WDFW Fish and Wildlife Commission hybrid meeting. Public comment accepted in person and virtually.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://wdfw.wa.gov/about/commission/meetings/2026"
-  },
   {
    "id": "naces-9493900dbdf6",
    "title": "OR Dept of Emergency Management Statewide Drill",
