@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T00:59:18+00:00",
+ "generated": "2026-10-23T01:02:04+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -23,48 +23,6 @@
   }
  },
  "events": [
-  {
-   "id": "naces-b63d5a5eada0",
-   "title": "Tidewater TTX",
-   "start": "2026-10-15T07:00-07:00",
-   "end": "2026-10-15T13:00-07:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Table Top",
-   "location": "Tidewater HQ - 7700 NE Parkway Dr, Suite 300, Vancouver, WA 98662",
-   "notes": "FOS Coordinator, SOS Coordinator, PIO(JIC) presence requested",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
-  {
-   "id": "marex-12afaee67cab",
-   "title": "WA Board of Pilotage Commissioners — Public Meeting",
-   "start": "2026-10-15T09:00-07:00",
-   "end": "2026-10-15T11:00-07:00",
-   "allDay": false,
-   "category": "regulatory",
-   "subtype": "",
-   "location": "",
-   "notes": "Regular public meeting of the WA Board of Pilotage Commissioners. Meets 3rd Thursday monthly.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://pilotage.wa.gov/meetings"
-  },
-  {
-   "id": "marex-c583f9ee9c6f",
-   "title": "Port of Anacortes — Regular Commission Meeting",
-   "start": "2026-10-15T18:00-07:00",
-   "end": "2026-10-15T19:30-07:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "317 Commercial Ave, Anacortes, WA",
-   "notes": "Regular Commission Meeting. Meets 1st and 3rd Thursdays at 6:00 PM.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://www.portofanacortes.com/governance/commission-meetings/"
-  },
   {
    "id": "naces-963b9b75da5e",
    "title": "Maxum Petroleum DPX",
