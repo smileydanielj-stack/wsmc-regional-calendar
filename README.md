@@ -25,6 +25,8 @@ A regional maritime and response calendar for wsmcoop.org.
    which lists dates before they are announced). The PDF step needs `pdftotext` (poppler) and is skipped without it.
    Teams join links are not republished; each event links back to the committee page.
 4. **`wsmc_events.json`** supplies WSMC's own events. Anything with "WSMC" in the title is highlighted.
+   Add `"supersedes": true` to an entry when NACES or the Marine Exchange also list that WSMC event (often with
+   different dates): their WSMC-highlighted events on overlapping dates are then dropped, so only the hand entry shows.
 
 ## How the page gets data
 

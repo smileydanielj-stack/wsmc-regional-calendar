@@ -239,6 +239,7 @@ def fetch_committees():
 # ----------------------------------------------------------------- merge
 def _norm(t): return re.sub(r"[^a-z0-9 ]", "", re.sub(r"^wa ecology( drill)?:\s*", "", t.lower()))
 def _day(ev): return dt.date.fromisoformat(ev["start"][:10])
+def _end(ev): return dt.date.fromisoformat((ev["end"] or ev["start"])[:10])
 
 def merge(naces, marex, wsmc, committees=()):
     by_day = {}
@@ -258,6 +259,13 @@ def merge(naces, marex, wsmc, committees=()):
     events = naces + kept + list(committees) + wsmc
     for e in events:
         if re.search(r"\bwsmc\b|washington state maritime coop", e["title"], flags=re.I): e["category"] = "wsmc"
+    # a hand-maintained event marked "supersedes" hides other sources' WSMC events on overlapping dates
+    spans = [(_day(w), _end(w)) for w in wsmc if w.pop("_supersedes", False)]
+    if spans:
+        n = len(events)
+        events = [e for e in events if e["source"] == "wsmc" or e["category"] != "wsmc"
+                  or not any(s <= _end(e) and _day(e) <= en for s, en in spans)]
+        dropped += n - len(events)
     today = dt.date.today()
     lo, hi = today - dt.timedelta(days=PAST_DAYS), today + dt.timedelta(days=FUTURE_DAYS)
     events = [e for e in events if lo <= dt.date.fromisoformat((e["end"] or e["start"])[:10]) and _day(e) <= hi]
@@ -272,7 +280,8 @@ def load_wsmc():
         out.append({"id": "wsmc-" + eid(w["start"], w["title"]), "title": w["title"], "start": w["start"],
                     "end": w.get("end"), "allDay": w.get("allDay", True), "category": "wsmc", "subtype": "",
                     "location": w.get("location", ""), "notes": w.get("notes", ""), "source": "wsmc",
-                    "sourceLabel": "WSMC", "url": w.get("url", "https://www.wsmcoop.org")})
+                    "sourceLabel": "WSMC", "url": w.get("url", "https://www.wsmcoop.org"),
+                    "_supersedes": bool(w.get("supersedes"))})
     return out
 
 # ----------------------------------------------------------------- outputs
