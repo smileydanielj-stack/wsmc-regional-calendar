@@ -24,7 +24,11 @@ A regional maritime and response calendar for wsmcoop.org.
    Puget Sound Harbor Safety Committee (one "Upcoming Meeting" block, plus the yearly Meetings Archive PDF,
    which lists dates before they are announced). The PDF step needs `pdftotext` (poppler) and is skipped without it.
    Teams join links are not republished; each event links back to the committee page.
-4. **`wsmc_events.json`** supplies WSMC's own events. Anything with "WSMC" in the title is highlighted.
+4. **Region 10 RRT / Northwest Area Committees meetings page**
+   (https://rrt10nwac.com/LinkPage?site=nwac&page=meetings) supplies RRT10 and Area Committee meetings from its
+   "Upcoming Meetings" block (title, date, time, location). Zoom links and meeting IDs are not republished; each
+   event links back to the page. Marine Exchange copies of the same meeting on the same day are dropped.
+5. **`wsmc_events.json`** supplies WSMC's own events. Anything with "WSMC" in the title is highlighted.
    Add `"supersedes": true` to an entry when NACES or the Marine Exchange also list that WSMC event (often with
    different dates): their WSMC-highlighted events on overlapping dates are then dropped, so only the hand entry shows.
 

@@ -5,7 +5,8 @@ Pulls upcoming events from:
   1. WA Dept. of Ecology NACES (Northwest Area Committee Exercise Schedule) - drills & exercises
   2. Marine Exchange of Puget Sound "WA Maritime" public Google Calendar (iCal feed)
   3. Marine Exchange committee pages (Harbor Safety Committee, Marine Firefighting Commission) - meeting dates
-  4. wsmc_events.json - hand-maintained WSMC events
+  4. Region 10 RRT / Northwest Area Committees meetings page - RRT and Area Committee meetings
+  5. wsmc_events.json - hand-maintained WSMC events
 
 Writes events.json (for the website), calendar.ics (subscribable feed) and, if the
 page file is present, refreshes the snapshot embedded in wsmc-regional-calendar.html.
@@ -28,6 +29,7 @@ MAREX_ICS = "https://calendar.google.com/calendar/ical/%s/public/basic.ics" % ur
 MAREX_PAGE = "https://marexps.com/wa-maritime-calendar/"
 PSHSC_PAGE = "https://marexps.com/puget-sound-harbor-safety-committee/"
 PSMFC_PAGE = "https://marexps.com/puget-sound-marine-firefighting-commission/"
+RRT10_PAGE = "https://rrt10nwac.com/LinkPage?site=nwac&page=meetings"
 
 PAST_DAYS, FUTURE_DAYS = 7, 500
 BS = chr(92)   # a single backslash
@@ -236,19 +238,59 @@ def fetch_committees():
             out.append(ev)
     return out
 
+# ----------------------------------------------------------------- RRT10 / NWAC
+def fetch_rrt10():
+    """The 'Upcoming Meetings' block on the Region 10 RRT / Northwest Area Committees meetings page: one bold title
+    per meeting, followed by Date:, Time:, and Location: lines. Zoom links and meeting IDs are not republished;
+    each event links back to the meetings page, which carries the agenda and join details."""
+    raw = _page_html(RRT10_PAGE)
+    a = raw.find("Upcoming Meetings")
+    if a < 0: raise ValueError("RRT10 meetings page has no 'Upcoming Meetings' heading; layout may have changed")
+    ends = [i for i in (raw.find(k, a) for k in ("Meeting Feedback Survey", "Past Meeting Summaries")) if i > a]
+    seg = raw[a + len("Upcoming Meetings"):min(ends) if ends else len(raw)]
+    heads = [m for m in re.finditer(r"<strong[^>]*>(.*?)</strong>", seg, flags=re.S)
+             if _text(m.group(1)) and not _text(m.group(1)).endswith(":")]
+    out = []
+    for i, h in enumerate(heads):
+        title = _text(h.group(1))
+        body = _text(seg[h.end():heads[i + 1].start() if i + 1 < len(heads) else len(seg)])
+        d = re.search(r"Date:\s*([A-Za-z]+)\s+(\d{1,2})\s*,\s*(\d{4})", body)
+        if not d or d.group(1).lower() not in MONTHS: continue
+        day = dt.date(int(d.group(3)), MONTHS[d.group(1).lower()], int(d.group(2)))
+        tm = re.search(r"Time:\s*(\d{1,2}):?(\d{2})\s*-\s*(\d{1,2}):?(\d{2})", body)
+        loc = re.search(r"Location:\s*(.*?)\s*(?:Agenda:|Join |Meeting ID:|$)", body)
+        notes = "Meeting of the Region 10 Regional Response Team / Northwest Area Committees."
+        if re.search(r"zoom|teams|webex", body, flags=re.I): notes += " A virtual option is offered."
+        notes += " The agenda and join details are on the RRT10/NWAC meetings page."
+        ev = {"id": "rrt10-" + eid(title, day.isoformat()), "title": title, "allDay": not tm, "category": "regulatory",
+              "subtype": "", "location": scrub(loc.group(1)) if loc else "", "notes": notes, "source": "rrt10",
+              "sourceLabel": "Region 10 RRT & Northwest Area Committees", "url": RRT10_PAGE}
+        if tm:
+            sh, sm_, eh, em = (int(x) for x in tm.groups())
+            ev.update({"start": iso(dt.datetime(day.year, day.month, day.day, sh, sm_, tzinfo=PT)),
+                       "end": iso(dt.datetime(day.year, day.month, day.day, eh, em, tzinfo=PT))})
+        else:
+            ev.update({"start": day.isoformat(), "end": day.isoformat()})
+        out.append(ev)
+    return out
+
 # ----------------------------------------------------------------- merge
 def _norm(t): return re.sub(r"[^a-z0-9 ]", "", re.sub(r"^wa ecology( drill)?:\s*", "", t.lower()))
 def _day(ev): return dt.date.fromisoformat(ev["start"][:10])
 def _end(ev): return dt.date.fromisoformat((ev["end"] or ev["start"])[:10])
 
-def merge(naces, marex, wsmc, committees=()):
+def merge(naces, marex, wsmc, committees=(), rrt=()):
     by_day = {}
     for n in naces: by_day.setdefault(_day(n), []).append(_norm(n["title"]))
     kept, dropped = [], 0
     cdays = {(_day(c), 'harbor safety' if 'Harbor Safety' in c['title'] else 'firefight') for c in committees}
+    rdays = {}
+    for r in rrt: rdays.setdefault(_day(r), []).append(_norm(r["title"]))
     for m in marex:
         if any((_day(m), k) in cdays for k in ('harbor safety', 'firefight') if k in m['title'].lower()):
             dropped += 1; continue                                       # committee page is authoritative
+        if any(difflib.SequenceMatcher(None, _norm(m["title"]), t).ratio() > 0.6 for t in rdays.get(_day(m), [])):
+            dropped += 1; continue                                       # RRT10 page is authoritative for its meetings
         if re.match(r"wa ecology drill", m["title"], flags=re.I):      # NACES is authoritative for drills
             dropped += 1; continue
         if re.match(r"wa ecology", m["title"], flags=re.I):
@@ -256,7 +298,7 @@ def merge(naces, marex, wsmc, committees=()):
             if any(difflib.SequenceMatcher(None, _norm(m["title"]), t).ratio() > 0.6 for t in near):
                 dropped += 1; continue
         kept.append(m)
-    events = naces + kept + list(committees) + wsmc
+    events = naces + kept + list(committees) + list(rrt) + wsmc
     for e in events:
         if re.search(r"\bwsmc\b|washington state maritime coop", e["title"], flags=re.I): e["category"] = "wsmc"
     # a hand-maintained event marked "supersedes" hides other sources' WSMC events on overlapping dates
@@ -322,8 +364,8 @@ def embed_snapshot(payload, page):
     open(page, "w", encoding="utf-8").write(s); return True
 
 def main():
-    status, naces, marex, committees = {}, [], [], []
-    for name, fn in (("naces", fetch_naces), ("marex", fetch_marex), ("committees", fetch_committees)):
+    status, naces, marex, committees, rrt = {}, [], [], [], []
+    for name, fn in (("naces", fetch_naces), ("marex", fetch_marex), ("committees", fetch_committees), ("rrt10", fetch_rrt10)):
         try:
             got = fn(); status[name] = {"ok": True, "count": len(got)}
         except Exception as ex:
@@ -334,7 +376,8 @@ def main():
             else: status[name] = {"ok": False, "error": str(ex)[:200]}
         if name == "naces": naces = got
         elif name == "marex": marex = got
-        else: committees = got
+        elif name == "committees": committees = got
+        else: rrt = got
     if not any(v.get("ok") for v in status.values()):
         log("All sources failed; leaving existing outputs untouched:", status); return 1
     # If one source is down, keep its events from the previous build instead of publishing a gap.
@@ -342,15 +385,16 @@ def main():
     if os.path.exists(prev_path) and not all(v.get("ok") for v in status.values()):
         try: previous = json.load(open(prev_path, encoding="utf-8")).get("events", [])
         except Exception: previous = []
-        keys = {"naces": "naces", "marex": "marex", "committees": "marex-committee"}
+        keys = {"naces": "naces", "marex": "marex", "committees": "marex-committee", "rrt10": "rrt10"}
         for name, src in keys.items():
             if not status[name].get("ok"):
                 kept = [e for e in previous if e.get("source") == src]
                 status[name].update({"stale": True, "count": len(kept)})
                 if name == "naces": naces = kept
                 elif name == "marex": marex = kept
-                else: committees = kept
-    events, dropped = merge(naces, marex, load_wsmc(), committees)
+                elif name == "committees": committees = kept
+                else: rrt = kept
+    events, dropped = merge(naces, marex, load_wsmc(), committees, rrt)
     payload = {"generated": dt.datetime.now(UTC).isoformat(timespec="seconds"), "timezone": "America/Los_Angeles",
                "categories": CATEGORIES, "sources": status, "events": events}
     json.dump(payload, open(os.path.join(HERE, "events.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
