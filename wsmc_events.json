@@ -7,5 +7,32 @@
     "location": "Silver Cloud Hotel, Point Ruston Waterfront, Tacoma, WA",
     "notes": "Day 1: training tracks (HAZWOPER 8-hour refresher, AI in Emergency Response, Salvage Marine Firefighting) and an evening reception with keynote by Captain Michael J. Hunt, USCG. Day 2: panels and presentations.",
     "url": "https://www.wsmcoop.org/2026-seminar"
+  },
+  {
+    "title": "WSMC 2027 Preparedness Conference: HAZWOPER Refresher",
+    "start": "2027-10-19",
+    "end": "2027-10-19",
+    "allDay": true,
+    "location": "Silver Cloud Hotel, Point Ruston Waterfront, Tacoma, WA",
+    "notes": "Day 1 of the WSMC 2027 Preparedness Conference (Oct 19-21). Annual WSMC 8-hour HAZWOPER refresher.",
+    "url": "https://www.wsmcoop.org/2026-seminar"
+  },
+  {
+    "title": "WSMC 2027 Preparedness Conference: Training Day, Evening Reception & Keynote",
+    "start": "2027-10-20",
+    "end": "2027-10-20",
+    "allDay": true,
+    "location": "Silver Cloud Hotel, Point Ruston Waterfront, Tacoma, WA",
+    "notes": "Day 2 of the WSMC 2027 Preparedness Conference (Oct 19-21). Training day (agenda to be announced), followed by an evening reception with keynote address.",
+    "url": "https://www.wsmcoop.org/2026-seminar"
+  },
+  {
+    "title": "WSMC 2027 Preparedness Conference: Conference Day",
+    "start": "2027-10-21",
+    "end": "2027-10-21",
+    "allDay": true,
+    "location": "Silver Cloud Hotel, Point Ruston Waterfront, Tacoma, WA",
+    "notes": "Day 3 of the WSMC 2027 Preparedness Conference (Oct 19-21). Presentations, panels, and networking.",
+    "url": "https://www.wsmcoop.org/2026-seminar"
   }
 ]
