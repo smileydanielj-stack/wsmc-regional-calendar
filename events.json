@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T17:34:11+00:00",
+ "generated": "2026-10-26T17:46:05+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -20,6 +20,10 @@
   "committees": {
    "ok": true,
    "count": 10
+  },
+  "rrt10": {
+   "ok": true,
+   "count": 1
   }
  },
  "events": [
@@ -346,20 +350,6 @@
    "url": "https://apps.ecology.wa.gov/naces/"
   },
   {
-   "id": "marex-c57f9f95dbea",
-   "title": "Sector Puget Sound Area Committee",
-   "start": "2026-11-05",
-   "end": "2026-11-05",
-   "allDay": true,
-   "category": "regulatory",
-   "subtype": "",
-   "location": "",
-   "notes": "Area committee meeting coordinating spill response planning for the Puget Sound sector.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
-  {
    "id": "naces-20604febdedf",
    "title": "Associated Petroleum Products DPX",
    "start": "2026-11-05T05:00-08:00",
@@ -372,6 +362,20 @@
    "source": "naces",
    "sourceLabel": "WA Ecology NACES",
    "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
+   "id": "rrt10-bf0bb49ec893",
+   "title": "Sector Puget Sound Area Committee Meeting",
+   "allDay": false,
+   "category": "regulatory",
+   "subtype": "",
+   "location": "WA State Department of Ecology's Northwest Regional Office 15700 Dayton Ave. North Shoreline, WA 98133",
+   "notes": "Meeting of the Region 10 Regional Response Team / Northwest Area Committees. A virtual option is offered. The agenda and join details are on the RRT10/NWAC meetings page.",
+   "source": "rrt10",
+   "sourceLabel": "Region 10 RRT & Northwest Area Committees",
+   "url": "https://rrt10nwac.com/LinkPage?site=nwac&page=meetings",
+   "start": "2026-11-05T09:00-08:00",
+   "end": "2026-11-05T13:00-08:00"
   },
   {
    "id": "marex-172bf32477cf",
