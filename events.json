@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T17:26:27+00:00",
+ "generated": "2026-10-26T17:34:11+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -1438,32 +1438,18 @@
    "url": "https://www.wsmcoop.org/2026-seminar"
   },
   {
-   "id": "marex-9a57585e303b",
-   "title": "Washington State Maritime Cooperative Spill Drill",
-   "start": "2027-11-02",
+   "id": "wsmc-f6a30cc048f3",
+   "title": "WSMC 2027 Worst Case Tabletop Exercise",
+   "start": "2027-11-03",
    "end": "2027-11-04",
    "allDay": true,
    "category": "wsmc",
    "subtype": "",
-   "location": "Marine Spill Response Corporation, 1330 Industry St, Everett, WA 98203, USA",
-   "notes": "",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://marexps.com/wa-maritime-calendar/"
-  },
-  {
-   "id": "naces-82fdda9f8fcb",
-   "title": "WSMC WCD",
-   "start": "2027-11-04T08:00-07:00",
-   "end": "2027-11-04T17:00-07:00",
-   "allDay": false,
-   "category": "wsmc",
-   "subtype": "Worst-case Table Top",
    "location": "Everett, WA",
-   "notes": "FOS Coordinator, SOS Coordinator, PIO(JIC), Trustee Agency Environment Unit, Wildlife Response presence requested",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
+   "notes": "WSMC worst-case discharge (WCD) tabletop exercise.",
+   "source": "wsmc",
+   "sourceLabel": "WSMC",
+   "url": "https://www.wsmcoop.org"
   }
  ]
 }
