@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T17:46:05+00:00",
+ "generated": "2026-10-27T01:03:10+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -27,20 +27,6 @@
   }
  },
  "events": [
-  {
-   "id": "naces-963b9b75da5e",
-   "title": "Maxum Petroleum DPX",
-   "start": "2026-10-19T12:00-07:00",
-   "end": "2026-10-19T14:00-07:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Deployment",
-   "location": "",
-   "notes": "",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
   {
    "id": "naces-efa362c80911",
    "title": "Coleman Oil Company Mobile GRP DPX",
