@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T01:03:10+00:00",
+ "generated": "2026-10-28T00:48:13+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -11,7 +11,7 @@
  "sources": {
   "naces": {
    "ok": true,
-   "count": 126
+   "count": 130
   },
   "marex": {
    "ok": true,
@@ -27,48 +27,6 @@
   }
  },
  "events": [
-  {
-   "id": "naces-efa362c80911",
-   "title": "Coleman Oil Company Mobile GRP DPX",
-   "start": "2026-10-20T08:00-07:00",
-   "end": "2026-10-20T16:00-07:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Deployment-GRP",
-   "location": "",
-   "notes": "",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
-  {
-   "id": "marex-c3a170c06430",
-   "title": "Port of Tacoma — Regular Commission Meeting",
-   "start": "2026-10-20T12:00-07:00",
-   "end": "2026-10-20T14:00-07:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "Fabulich Center, 3600 Port of Tacoma Rd, Room 104, Tacoma, WA",
-   "notes": "Regular Commission Meeting.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://www.portoftacoma.com/commission-meetings"
-  },
-  {
-   "id": "marex-4ce130505500",
-   "title": "Port of Bellingham — Board of Commissioners Open Public Meeting",
-   "start": "2026-10-20T16:00-07:00",
-   "end": "2026-10-20T17:30-07:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "Harbor Center Room, 1801 Roeder Ave, Bellingham, WA",
-   "notes": "Board of Commissioners Open Public Meeting.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://www.portofbellingham.com/calendar.aspx"
-  },
   {
    "id": "wsmc-80332918e73e",
    "title": "WSMC 2026 Preparedness Conference",
@@ -714,6 +672,20 @@
    "url": "https://portofkalama.com/discover-the-port/board-of-commissioners/"
   },
   {
+   "id": "naces-91defa064684",
+   "title": "Phillips 66 Ferndale Refinery DPX",
+   "start": "2026-11-30T09:00-08:00",
+   "end": "2026-11-30T13:00-08:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Deployment",
+   "location": "3901 Unick Rd, Ferndale WA",
+   "notes": "Wa DOE presence requested",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
    "id": "marex-ae38865153db",
    "title": "Northwest Seaport Alliance — Managing Members Meeting",
    "start": "2026-12-01T11:30-08:00",
@@ -919,6 +891,20 @@
    "subtype": "Deployment",
    "location": "Cornwall Park, Bellingham",
    "notes": "",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
+   "id": "naces-ac880e93053c",
+   "title": "Phillips 66 Ferndale Refinery DPX",
+   "start": "2026-12-14T09:00-08:00",
+   "end": "2026-12-14T13:00-08:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Deployment",
+   "location": "3901 Unick Rd Ferndale, WA",
+   "notes": "Wa DOE presence requested",
    "source": "naces",
    "sourceLabel": "WA Ecology NACES",
    "url": "https://apps.ecology.wa.gov/naces/"
