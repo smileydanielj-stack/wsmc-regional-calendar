@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T00:48:10+00:00",
+ "generated": "2026-10-30T00:48:57+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -11,11 +11,11 @@
  "sources": {
   "naces": {
    "ok": true,
-   "count": 134
+   "count": 137
   },
   "marex": {
    "ok": true,
-   "count": 1185
+   "count": 1188
   },
   "committees": {
    "ok": true,
@@ -27,34 +27,6 @@
   }
  },
  "events": [
-  {
-   "id": "wsmc-80332918e73e",
-   "title": "WSMC 2026 Preparedness Conference",
-   "start": "2026-10-21",
-   "end": "2026-10-22",
-   "allDay": true,
-   "category": "wsmc",
-   "subtype": "",
-   "location": "Silver Cloud Hotel, Point Ruston Waterfront, Tacoma, WA",
-   "notes": "Day 1: training tracks (HAZWOPER 8-hour refresher, AI in Emergency Response, Salvage Marine Firefighting) and an evening reception with keynote by Captain Michael J. Hunt, USCG. Day 2: panels and presentations.",
-   "source": "wsmc",
-   "sourceLabel": "WSMC",
-   "url": "https://www.wsmcoop.org/2026-seminar"
-  },
-  {
-   "id": "naces-d4eae9c642bf",
-   "title": "Phillips 66 Refinery TTX",
-   "start": "2026-10-22T08:00-07:00",
-   "end": "2026-10-22T16:00-07:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Table Top",
-   "location": "3901 Unick Road Ferndale, WA 98248",
-   "notes": "USCG, WA DOE, FOS Coordinator, SOS Coordinator, PIO(JIC) presence requested",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
   {
    "id": "marex-82af036b05c6",
    "title": "WA Ecology: Oregon-Washington Lower Columbia River Golden Mussel Exercise",
@@ -168,6 +140,20 @@
    "url": "https://apps.ecology.wa.gov/naces/"
   },
   {
+   "id": "marex-6cd397a40582",
+   "title": "Muckleshoot Tribal Fishing — Green/Duwamish River Opens",
+   "start": "2026-10-30",
+   "end": "2026-10-30",
+   "allDay": true,
+   "category": "industry",
+   "subtype": "",
+   "location": "Green/Duwamish River, Seattle, WA (closed upstream of the HWY 99 bridge)",
+   "notes": "Muckleshoot Indian Tribe fishing schedule, per the Net Fisheries Hotline message of 10/28/2026. Green/Duwamish River opens 8:00 AM Friday, October 30; Elliott Bay opens 8:00 AM Sunday, November 1; both areas close 8:00 PM Tuesday, November 3. For net moves and vessel coordination, please call",
+   "source": "marex",
+   "sourceLabel": "Marine Exchange of Puget Sound",
+   "url": "https://acrobat.adobe.com/link/spaces/urn:aaid:sc:US:9da83a82-b015-4b07-9043-0f0cb7771a6a"
+  },
+  {
    "id": "naces-378a200199c1",
    "title": "BP Cherry Point DPX GRP",
    "start": "2026-10-30T09:00-07:00",
@@ -194,6 +180,20 @@
    "source": "naces",
    "sourceLabel": "WA Ecology NACES",
    "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
+   "id": "marex-114f006e333b",
+   "title": "Muckleshoot Tribal Fishing — Elliott Bay Opens",
+   "start": "2026-11-01",
+   "end": "2026-11-01",
+   "allDay": true,
+   "category": "industry",
+   "subtype": "",
+   "location": "Elliott Bay, Seattle, WA (inside the line from Pier 91 to the Duwamish Head light)",
+   "notes": "Muckleshoot Indian Tribe fishing schedule, per the Net Fisheries Hotline message of 10/28/2026. Green/Duwamish River opens 8:00 AM Friday, October 30; Elliott Bay opens 8:00 AM Sunday, November 1; both areas close 8:00 PM Tuesday, November 3. For net moves and vessel coordination, please call",
+   "source": "marex",
+   "sourceLabel": "Marine Exchange of Puget Sound",
+   "url": "https://acrobat.adobe.com/link/spaces/urn:aaid:sc:US:9da83a82-b015-4b07-9043-0f0cb7771a6a"
   },
   {
    "id": "naces-d6a527260b27",
@@ -236,6 +236,20 @@
    "source": "marex",
    "sourceLabel": "Marine Exchange of Puget Sound",
    "url": "https://www.nwseaportalliance.com/about-us/governance"
+  },
+  {
+   "id": "marex-8750db566ea9",
+   "title": "Muckleshoot Tribal Fishing — Green/Duwamish River & Elliott Bay Close",
+   "start": "2026-11-03T20:00-08:00",
+   "end": "2026-11-03T20:30-08:00",
+   "allDay": false,
+   "category": "industry",
+   "subtype": "",
+   "location": "Green/Duwamish River & Elliott Bay, Seattle, WA",
+   "notes": "",
+   "source": "marex",
+   "sourceLabel": "Marine Exchange of Puget Sound",
+   "url": "https://acrobat.adobe.com/link/spaces/urn:aaid:sc:US:9da83a82-b015-4b07-9043-0f0cb7771a6a"
   },
   {
    "id": "marexc-492db5e1a270",
@@ -658,6 +672,20 @@
    "url": "https://apps.ecology.wa.gov/naces/"
   },
   {
+   "id": "naces-4beb41567f05",
+   "title": "NelsonReisner",
+   "start": "2026-12-01T09:00-08:00",
+   "end": "2026-12-01T10:00-08:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Deployment",
+   "location": "Western Towboat 617 NW 40th St Seattle WA 98107",
+   "notes": "",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
    "id": "marex-ae38865153db",
    "title": "Northwest Seaport Alliance — Managing Members Meeting",
    "start": "2026-12-01T11:30-08:00",
@@ -726,6 +754,20 @@
    "source": "marex",
    "sourceLabel": "Marine Exchange of Puget Sound",
    "url": "https://www.portofanacortes.com/governance/commission-meetings/"
+  },
+  {
+   "id": "naces-c6f515b8ea42",
+   "title": "Coleman Oil Company",
+   "start": "2026-12-08T09:00-08:00",
+   "end": "2026-12-08T16:00-08:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Table Top",
+   "location": "Spokane, WA",
+   "notes": "",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
   },
   {
    "id": "marex-913b206176cc",
@@ -1344,6 +1386,20 @@
    "url": "https://marexps.com/wa-maritime-calendar/"
   },
   {
+   "id": "naces-8c9f9e57076d",
+   "title": "Tacoma Rail WCD",
+   "start": "2027-10-14T08:00-07:00",
+   "end": "2027-10-14T16:00-07:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Worst-case Table Top",
+   "location": "",
+   "notes": "",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
    "id": "wsmc-50ecaa871498",
    "title": "WSMC 2027 Preparedness Conference: HAZWOPER Refresher",
    "start": "2027-10-19",
@@ -1372,8 +1428,8 @@
    "url": "https://www.wsmcoop.org/2026-seminar"
   },
   {
-   "id": "naces-6f15daf48923",
-   "title": "Tidewater - Drill Training",
+   "id": "naces-de0918713932",
+   "title": "Tidewater - WCD Drill Training",
    "start": "2027-10-20T08:00-07:00",
    "end": "2027-10-20T16:00-07:00",
    "allDay": false,
@@ -1400,8 +1456,8 @@
    "url": "https://www.wsmcoop.org/2026-seminar"
   },
   {
-   "id": "naces-651740375857",
-   "title": "Tidewater",
+   "id": "naces-d98b36f6252f",
+   "title": "Tidewater WCD",
    "start": "2027-10-21T07:00-07:00",
    "end": "2027-10-21T17:00-07:00",
    "allDay": false,
@@ -1428,8 +1484,8 @@
    "url": "https://www.wsmcoop.org"
   },
   {
-   "id": "naces-4d62883c95db",
-   "title": "Tidewater",
+   "id": "naces-5b9276f2a3bf",
+   "title": "Tidewater WCD Training Day",
    "start": "2027-11-09T08:00-08:00",
    "end": "2027-11-09T15:00-08:00",
    "allDay": false,
@@ -1442,8 +1498,8 @@
    "url": "https://apps.ecology.wa.gov/naces/"
   },
   {
-   "id": "naces-562d9922027e",
-   "title": "Tidewater",
+   "id": "naces-7ea3b4c26801",
+   "title": "Tidewater WCD",
    "start": "2027-11-10T07:00-08:00",
    "end": "2027-11-10T16:00-08:00",
    "allDay": false,
