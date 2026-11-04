@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T00:40:18+00:00",
+ "generated": "2026-11-04T00:40:10+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -11,7 +11,7 @@
  "sources": {
   "naces": {
    "ok": true,
-   "count": 135
+   "count": 136
   },
   "marex": {
    "ok": true,
@@ -40,48 +40,6 @@
    "source": "marex",
    "sourceLabel": "Marine Exchange of Puget Sound",
    "url": "https://apps.ecology.wa.gov/naces/"
-  },
-  {
-   "id": "marex-b3b3de74a0c9",
-   "title": "Port of Port Angeles — Commission Meeting",
-   "start": "2026-10-27T09:00-07:00",
-   "end": "2026-10-27T11:00-07:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "",
-   "notes": "Regular Commission Meeting.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://portofpa.com/about-us/port-commission/"
-  },
-  {
-   "id": "marex-d7378c8987cc",
-   "title": "Port of Vancouver USA — Commission Meeting",
-   "start": "2026-10-27T09:30-07:00",
-   "end": "2026-10-27T11:30-07:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "",
-   "notes": "Regular Commission Meeting.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://www.portvanusa.com/commission/agendas-minutes/"
-  },
-  {
-   "id": "marex-dbdd4e892614",
-   "title": "Port of Seattle — Commission Meeting",
-   "start": "2026-10-27T12:00-07:00",
-   "end": "2026-10-27T14:00-07:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "SEA Airport Conference Center, Seattle, WA",
-   "notes": "Regular Commission Meeting.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://meetings.portseattle.org/"
   },
   {
    "id": "naces-c37bcf9cd4fa",
@@ -904,6 +862,20 @@
    "category": "drill",
    "subtype": "Deployment",
    "location": "Cornwall Park, Bellingham",
+   "notes": "",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
+   "id": "naces-726c21d3305c",
+   "title": "Coleman Oil Company Mobile GRP DPX",
+   "start": "2026-12-14T08:00-08:00",
+   "end": "2026-12-14T16:00-08:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Deployment-GRP",
+   "location": "",
    "notes": "",
    "source": "naces",
    "sourceLabel": "WA Ecology NACES",
