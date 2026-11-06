@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T00:41:07+00:00",
+ "generated": "2026-11-06T00:40:59+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -11,7 +11,7 @@
  "sources": {
   "naces": {
    "ok": true,
-   "count": 137
+   "count": 138
   },
   "marex": {
    "ok": true,
@@ -27,20 +27,6 @@
   }
  },
  "events": [
-  {
-   "id": "naces-d09fe3d64ced",
-   "title": "Trans Mountain Pipeline WCD",
-   "start": "2026-10-29T08:00-07:00",
-   "end": "2026-10-29T16:00-07:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Worst-case Table Top",
-   "location": "Whatcom County Emergency Operations Centre",
-   "notes": "",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
   {
    "id": "marex-6cd397a40582",
    "title": "Muckleshoot Tribal Fishing — Green/Duwamish River Opens",
@@ -821,6 +807,20 @@
    "subtype": "Deployment",
    "location": "3901 Unick Rd Ferndale, WA",
    "notes": "Wa DOE presence requested",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
+   "id": "naces-fc83e1cac9f2",
+   "title": "Coleman Oil Company Mobile GRP DPX",
+   "start": "2026-12-15T08:00-08:00",
+   "end": "2026-12-15T16:00-08:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Deployment-GRP",
+   "location": "",
+   "notes": "",
    "source": "naces",
    "sourceLabel": "WA Ecology NACES",
    "url": "https://apps.ecology.wa.gov/naces/"
