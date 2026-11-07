@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T12:27:23+00:00",
+ "generated": "2026-11-07T00:39:17+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -27,48 +27,6 @@
   }
  },
  "events": [
-  {
-   "id": "marex-6cd397a40582",
-   "title": "Muckleshoot Tribal Fishing — Green/Duwamish River Opens",
-   "start": "2026-10-30",
-   "end": "2026-10-30",
-   "allDay": true,
-   "category": "industry",
-   "subtype": "",
-   "location": "Green/Duwamish River, Seattle, WA (closed upstream of the HWY 99 bridge)",
-   "notes": "Muckleshoot Indian Tribe fishing schedule, per the Net Fisheries Hotline message of 10/28/2026. Green/Duwamish River opens 8:00 AM Friday, October 30; Elliott Bay opens 8:00 AM Sunday, November 1; both areas close 8:00 PM Tuesday, November 3. For net moves and vessel coordination, please call",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://acrobat.adobe.com/link/spaces/urn:aaid:sc:US:9da83a82-b015-4b07-9043-0f0cb7771a6a"
-  },
-  {
-   "id": "naces-378a200199c1",
-   "title": "BP Cherry Point DPX GRP",
-   "start": "2026-10-30T09:00-07:00",
-   "end": "2026-10-30T13:00-07:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Deployment-GRP",
-   "location": "",
-   "notes": "",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
-  {
-   "id": "naces-ba463cfb2f5a",
-   "title": "NRCES GRP DPX",
-   "start": "2026-10-30T09:00-07:00",
-   "end": "2026-10-30T11:00-07:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Deployment-GRP",
-   "location": "Fidalgo Bay, WA",
-   "notes": "WADOE presence requested",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
   {
    "id": "marex-114f006e333b",
    "title": "Muckleshoot Tribal Fishing — Elliott Bay Opens",
