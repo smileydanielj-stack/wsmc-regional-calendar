@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T00:39:17+00:00",
+ "generated": "2026-11-09T00:44:08+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -27,20 +27,6 @@
   }
  },
  "events": [
-  {
-   "id": "marex-114f006e333b",
-   "title": "Muckleshoot Tribal Fishing — Elliott Bay Opens",
-   "start": "2026-11-01",
-   "end": "2026-11-01",
-   "allDay": true,
-   "category": "industry",
-   "subtype": "",
-   "location": "Elliott Bay, Seattle, WA (inside the line from Pier 91 to the Duwamish Head light)",
-   "notes": "Muckleshoot Indian Tribe fishing schedule, per the Net Fisheries Hotline message of 10/28/2026. Green/Duwamish River opens 8:00 AM Friday, October 30; Elliott Bay opens 8:00 AM Sunday, November 1; both areas close 8:00 PM Tuesday, November 3. For net moves and vessel coordination, please call",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://acrobat.adobe.com/link/spaces/urn:aaid:sc:US:9da83a82-b015-4b07-9043-0f0cb7771a6a"
-  },
   {
    "id": "naces-d6a527260b27",
    "title": "BNSF Railway Company",
