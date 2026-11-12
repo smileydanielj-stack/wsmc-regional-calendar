@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T00:40:55+00:00",
+ "generated": "2026-11-12T00:42:08+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -27,20 +27,6 @@
   }
  },
  "events": [
-  {
-   "id": "naces-cb3cd083ff50",
-   "title": "Columbia Basin Railroad Mobile TTX",
-   "start": "2026-11-04T07:00-08:00",
-   "end": "2026-11-04T13:00-08:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Table Top",
-   "location": "Warden, Wa",
-   "notes": "",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
   {
    "id": "marex-c57f9f95dbea",
    "title": "Sector Puget Sound Area Committee",
