@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T00:42:09+00:00",
+ "generated": "2026-11-14T00:39:35+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -11,7 +11,7 @@
  "sources": {
   "naces": {
    "ok": true,
-   "count": 145
+   "count": 146
   },
   "marex": {
    "ok": true,
@@ -2333,6 +2333,20 @@
    "subtype": "Worst-case Table Top",
    "location": "Vancouver, WA",
    "notes": "FOS Coordinator, SOS Coordinator, PIO(JIC), Trustee Agency Environment Unit, Wildlife Response presence requested",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
+   "id": "naces-a35d864c98cb",
+   "title": "BP",
+   "start": "2027-10-28T08:00-07:00",
+   "end": "2027-10-28T16:00-07:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Table Top",
+   "location": "",
+   "notes": "WA ECY, SOS Coordinator, PIO(JIC), Trustee Agency Environment Unit presence requested",
    "source": "naces",
    "sourceLabel": "WA Ecology NACES",
    "url": "https://apps.ecology.wa.gov/naces/"
