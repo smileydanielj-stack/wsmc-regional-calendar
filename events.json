@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T00:39:35+00:00",
+ "generated": "2026-11-17T00:42:19+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -27,48 +27,6 @@
   }
  },
  "events": [
-  {
-   "id": "naces-767736d1be33",
-   "title": "Phillips 66- Moses Lake DPX",
-   "start": "2026-11-09T08:00-08:00",
-   "end": "2026-11-09T12:00-08:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Deployment",
-   "location": "",
-   "notes": "",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
-  {
-   "id": "naces-92add298f3c8",
-   "title": "Tyree Oil Mobile TTX/DPX",
-   "start": "2026-11-09T08:00-08:00",
-   "end": "2026-11-09T14:00-08:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Deployment, Table Top",
-   "location": "",
-   "notes": "NWFF DOE presence requested",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
-  {
-   "id": "marex-91500bd8ee9c",
-   "title": "Port of Olympia — Commission Meeting",
-   "start": "2026-11-09T16:00-08:00",
-   "end": "2026-11-09T18:00-08:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "Olympics Room, 626 Columbia St NW, Suite 1B, Olympia, WA 98501",
-   "notes": "Regular Commission Meeting (2nd & 4th Mondays, 4 PM).",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://portolympia.com/commission/"
-  },
   {
    "id": "marex-51d70fb6b87a",
    "title": "Port of Grays Harbor — Commission Meeting",
@@ -292,20 +250,6 @@
    "source": "marex",
    "sourceLabel": "Marine Exchange of Puget Sound",
    "url": "https://www.portofbellingham.com/calendar.aspx"
-  },
-  {
-   "id": "naces-986656fabd73",
-   "title": "Great Northwest Railroad TTX",
-   "start": "2026-11-18T09:00-08:00",
-   "end": "2026-11-18T14:00-08:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Table Top",
-   "location": "Great Northwest RR Depot, Lewiston, ID",
-   "notes": "Washington Ecology presence requested",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
   },
   {
    "id": "marex-f853a29574dd",
@@ -1414,6 +1358,20 @@
    "url": "https://www.portvanusa.com/commission/agendas-minutes/"
   },
   {
+   "id": "marexc-0cf04f5cea2b",
+   "title": "Puget Sound Marine Firefighting Commission — Meeting",
+   "start": "2027-02-09T11:00-08:00",
+   "end": null,
+   "allDay": false,
+   "category": "regulatory",
+   "subtype": "",
+   "location": "Online (Microsoft Teams)",
+   "notes": "Meeting of the Puget Sound Marine Firefighting Commission. The join link and past minutes are on the commission page.",
+   "source": "marex-committee",
+   "sourceLabel": "Marine Exchange of Puget Sound",
+   "url": "https://marexps.com/puget-sound-marine-firefighting-commission/"
+  },
+  {
    "id": "marex-93e80e42e082",
    "title": "Port of Seattle — Commission Meeting",
    "start": "2027-02-09T12:00-08:00",
@@ -2100,6 +2058,34 @@
    "url": "https://www.seattlepropellerclub.org/events"
   },
   {
+   "id": "naces-1949030d2941",
+   "title": "Paul Holt",
+   "start": "2027-05-11T08:00-07:00",
+   "end": "2027-05-12T17:00-07:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Deployment, Worst-case Table Top",
+   "location": "Vancouver Lake",
+   "notes": "State of Washington , FOS Coordinator, SOS Coordinator presence requested",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
+   "id": "marexc-396d729a8dab",
+   "title": "Puget Sound Marine Firefighting Commission — Meeting",
+   "start": "2027-05-11T11:00-07:00",
+   "end": null,
+   "allDay": false,
+   "category": "regulatory",
+   "subtype": "",
+   "location": "Online (Microsoft Teams)",
+   "notes": "Meeting of the Puget Sound Marine Firefighting Commission. The join link and past minutes are on the commission page.",
+   "source": "marex-committee",
+   "sourceLabel": "Marine Exchange of Puget Sound",
+   "url": "https://marexps.com/puget-sound-marine-firefighting-commission/"
+  },
+  {
    "id": "naces-10c9d935e7bb",
    "title": "Kinder Morgan OR WCD",
    "start": "2027-05-12T08:00-07:00",
@@ -2196,6 +2182,20 @@
    "source": "naces",
    "sourceLabel": "WA Ecology NACES",
    "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
+   "id": "marexc-9fddc98bb80f",
+   "title": "Puget Sound Marine Firefighting Commission — Meeting",
+   "start": "2027-09-13T11:00-07:00",
+   "end": null,
+   "allDay": false,
+   "category": "regulatory",
+   "subtype": "",
+   "location": "Online (Microsoft Teams)",
+   "notes": "Meeting of the Puget Sound Marine Firefighting Commission. The join link and past minutes are on the commission page.",
+   "source": "marex-committee",
+   "sourceLabel": "Marine Exchange of Puget Sound",
+   "url": "https://marexps.com/puget-sound-marine-firefighting-commission/"
   },
   {
    "id": "naces-f62bd22609e8",
@@ -2338,8 +2338,8 @@
    "url": "https://apps.ecology.wa.gov/naces/"
   },
   {
-   "id": "naces-a35d864c98cb",
-   "title": "BP",
+   "id": "naces-22aff6888a59",
+   "title": "BP Cherry Point TTX",
    "start": "2027-10-28T08:00-07:00",
    "end": "2027-10-28T16:00-07:00",
    "allDay": false,
@@ -2364,6 +2364,20 @@
    "source": "wsmc",
    "sourceLabel": "WSMC",
    "url": "https://www.wsmcoop.org"
+  },
+  {
+   "id": "marexc-06efb8175f83",
+   "title": "Puget Sound Marine Firefighting Commission — Meeting",
+   "start": "2027-11-09T11:00-08:00",
+   "end": null,
+   "allDay": false,
+   "category": "regulatory",
+   "subtype": "",
+   "location": "Online (Microsoft Teams)",
+   "notes": "Meeting of the Puget Sound Marine Firefighting Commission. The join link and past minutes are on the commission page.",
+   "source": "marex-committee",
+   "sourceLabel": "Marine Exchange of Puget Sound",
+   "url": "https://marexps.com/puget-sound-marine-firefighting-commission/"
   }
  ]
 }
