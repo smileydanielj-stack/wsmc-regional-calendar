@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T00:42:19+00:00",
+ "generated": "2026-11-18T00:42:55+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -11,7 +11,7 @@
  "sources": {
   "naces": {
    "ok": true,
-   "count": 146
+   "count": 147
   },
   "marex": {
    "ok": true,
@@ -27,104 +27,6 @@
   }
  },
  "events": [
-  {
-   "id": "marex-51d70fb6b87a",
-   "title": "Port of Grays Harbor — Commission Meeting",
-   "start": "2026-11-10T09:00-08:00",
-   "end": "2026-11-10T11:00-08:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "",
-   "notes": "Regular Commission Meeting. Meets 2nd Tuesday monthly at 9am.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://www.portofgraysharbor.com/commission"
-  },
-  {
-   "id": "marex-40e9db989b86",
-   "title": "Port of Longview — Regular Commission Meeting",
-   "start": "2026-11-10T09:00-08:00",
-   "end": "2026-11-10T11:00-08:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "Port Office, 10 International Way, Longview, WA",
-   "notes": "Regular Commission Meeting (November meets 2nd & 4th Tuesday per Resolution 2025-13).",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://www.portoflongview.com/157/Commission-Meetings"
-  },
-  {
-   "id": "marex-b851f307a4a7",
-   "title": "Port of Port Angeles — Commission Meeting",
-   "start": "2026-11-10T09:00-08:00",
-   "end": "2026-11-10T11:00-08:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "",
-   "notes": "Regular Commission Meeting.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://portofpa.com/about-us/port-commission/"
-  },
-  {
-   "id": "marex-a1afbe66f7af",
-   "title": "Port of Vancouver USA — Commission Meeting",
-   "start": "2026-11-10T09:30-08:00",
-   "end": "2026-11-10T11:30-08:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "",
-   "notes": "Regular Commission Meeting.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://www.portvanusa.com/commission/agendas-minutes/"
-  },
-  {
-   "id": "marexc-f066bf173629",
-   "title": "Puget Sound Marine Firefighting Commission — Meeting",
-   "start": "2026-11-10T11:00-08:00",
-   "end": null,
-   "allDay": false,
-   "category": "regulatory",
-   "subtype": "",
-   "location": "Online (Microsoft Teams)",
-   "notes": "Meeting of the Puget Sound Marine Firefighting Commission. The join link and past minutes are on the commission page.",
-   "source": "marex-committee",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://marexps.com/puget-sound-marine-firefighting-commission/"
-  },
-  {
-   "id": "marex-ee77f79ac25f",
-   "title": "Port of Tacoma — Free Public Bus Tour",
-   "start": "2026-11-10T13:00-08:00",
-   "end": "2026-11-10T15:00-08:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "Fabulich Center, 3600 Port of Tacoma Rd, Tacoma, WA 98424",
-   "notes": "Free two-hour bus tour of the Port and Tacoma Tideflats. Reservations required; photo ID for passengers over 17. Details and reservations:",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://www.portoftacoma.com/community/tours-events"
-  },
-  {
-   "id": "marex-89db645dbda0",
-   "title": "Seattle Maritime Academy — Information Session & Tour",
-   "start": "2026-11-10T18:00-08:00",
-   "end": "2026-11-10T19:30-08:00",
-   "allDay": false,
-   "category": "industry",
-   "subtype": "",
-   "location": "Seattle Maritime Academy, 4455 Shilshole Ave NW, Seattle, WA 98107",
-   "notes": "Tour of Seattle Central College's Seattle Maritime Academy facility in Ballard, with an information session covering college and U.S. Coast Guard application requirements, what to expect once enrolled, internships and certifications, and time for questions. RSVP required. Details and registration: Direct booking for this session:",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://maritime.seattlecentral.edu/tours-and-information"
-  },
   {
    "id": "marex-2a8c5ae79bc9",
    "title": "Port of Kalama — Commission Meeting",
@@ -2058,15 +1960,15 @@
    "url": "https://www.seattlepropellerclub.org/events"
   },
   {
-   "id": "naces-1949030d2941",
-   "title": "Paul Holt",
-   "start": "2027-05-11T08:00-07:00",
-   "end": "2027-05-12T17:00-07:00",
+   "id": "naces-a9bf2de1d8c1",
+   "title": "Union Pacific Railroad DPX",
+   "start": "2027-05-11T09:00-07:00",
+   "end": "2027-05-11T13:00-07:00",
    "allDay": false,
    "category": "drill",
-   "subtype": "Deployment, Worst-case Table Top",
+   "subtype": "Deployment",
    "location": "Vancouver Lake",
-   "notes": "State of Washington , FOS Coordinator, SOS Coordinator presence requested",
+   "notes": "",
    "source": "naces",
    "sourceLabel": "WA Ecology NACES",
    "url": "https://apps.ecology.wa.gov/naces/"
@@ -2095,6 +1997,20 @@
    "subtype": "Worst-case Table Top",
    "location": "TBD",
    "notes": "USCG, ODEQ, EPA, FOS Coordinator, SOS Coordinator, PIO(JIC), Wildlife Response presence requested",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
+   "id": "naces-627196bc2f76",
+   "title": "Union Pacific Railroad WCD",
+   "start": "2027-05-12T08:00-07:00",
+   "end": "2027-05-12T17:00-07:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Deployment, Worst-case Table Top",
+   "location": "Vancouver Lake",
+   "notes": "State of Washington , FOS Coordinator, SOS Coordinator presence requested",
    "source": "naces",
    "sourceLabel": "WA Ecology NACES",
    "url": "https://apps.ecology.wa.gov/naces/"
