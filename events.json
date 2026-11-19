@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T00:42:55+00:00",
+ "generated": "2026-11-19T00:44:19+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -11,7 +11,7 @@
  "sources": {
   "naces": {
    "ok": true,
-   "count": 147
+   "count": 150
   },
   "marex": {
    "ok": true,
@@ -27,20 +27,6 @@
   }
  },
  "events": [
-  {
-   "id": "marex-2a8c5ae79bc9",
-   "title": "Port of Kalama — Commission Meeting",
-   "start": "2026-11-11T17:30-08:00",
-   "end": "2026-11-11T19:30-08:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "",
-   "notes": "Regular Commission Meeting. Meets 2nd & 4th Wednesdays at 5:30pm.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://portofkalama.com/discover-the-port/board-of-commissioners/"
-  },
   {
    "id": "naces-93fdf3bcfe7c",
    "title": "Alon Asphalt Company DPX",
@@ -1540,6 +1526,20 @@
    "url": "https://maritime.seattlecentral.edu/tours-and-information"
   },
   {
+   "id": "naces-5eade5db9d1e",
+   "title": "TLP/SeaPort Terminal",
+   "start": "2027-03-10T07:00-08:00",
+   "end": "2027-03-10T13:00-08:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Deployment",
+   "location": "",
+   "notes": "",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
    "id": "marex-89d4d8622b6e",
    "title": "Port of Kalama — Commission Meeting",
    "start": "2027-03-10T17:30-08:00",
@@ -2100,6 +2100,20 @@
    "url": "https://apps.ecology.wa.gov/naces/"
   },
   {
+   "id": "naces-5ebfe6f4f49d",
+   "title": "TLP/SeaPort Terminal",
+   "start": "2027-07-28T08:00-07:00",
+   "end": "2027-07-28T13:00-07:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Deployment",
+   "location": "",
+   "notes": "",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
+  },
+  {
    "id": "marexc-9fddc98bb80f",
    "title": "Puget Sound Marine Firefighting Commission — Meeting",
    "start": "2027-09-13T11:00-07:00",
@@ -2168,6 +2182,20 @@
    "source": "marex",
    "sourceLabel": "Marine Exchange of Puget Sound",
    "url": "https://marexps.com/wa-maritime-calendar/"
+  },
+  {
+   "id": "naces-03636aaca6a4",
+   "title": "TLP/SeaPort Terminal",
+   "start": "2027-10-05T08:00-07:00",
+   "end": "2027-10-05T13:00-07:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Table Top",
+   "location": "",
+   "notes": "",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
   },
   {
    "id": "naces-8c9f9e57076d",
