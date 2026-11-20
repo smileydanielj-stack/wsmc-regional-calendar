@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T00:44:19+00:00",
+ "generated": "2026-11-20T00:40:33+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -27,34 +27,6 @@
   }
  },
  "events": [
-  {
-   "id": "naces-93fdf3bcfe7c",
-   "title": "Alon Asphalt Company DPX",
-   "start": "2026-11-12T09:00-08:00",
-   "end": "2026-11-12T12:00-08:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Deployment",
-   "location": "Alon Asphalt tank farm pipeline",
-   "notes": "ECY presence requested",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
-  {
-   "id": "marex-ed32844a33a8",
-   "title": "WA Ecology — Natural Resource Damage Assessment (RDA) Committee",
-   "start": "2026-11-12T09:00-08:00",
-   "end": "2026-11-12T11:00-08:00",
-   "allDay": false,
-   "category": "regulatory",
-   "subtype": "",
-   "location": "",
-   "notes": "The WA Natural Resource Damage Assessment Committee meets monthly to assess environmental injury from oil spills into state waters. Open to the public.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://ecology.wa.gov/spills-cleanup/spills/spill-preparedness-response/restoring-resources-after-spills"
-  },
   {
    "id": "naces-71edede265cf",
    "title": "Centerline Logistics WCD",
