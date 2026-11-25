@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T00:38:56+00:00",
+ "generated": "2026-11-25T00:43:19+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -27,62 +27,6 @@
   }
  },
  "events": [
-  {
-   "id": "naces-fd827f39fc3a",
-   "title": "Puget Sound Naval Shipyard Mobile DPX",
-   "start": "2026-11-17T09:00-08:00",
-   "end": "2026-11-17T11:00-08:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Deployment",
-   "location": "Sinclair Inlet Pier D.",
-   "notes": "",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
-  {
-   "id": "marex-8f4597059aff",
-   "title": "Port of Tacoma — Regular Commission Meeting",
-   "start": "2026-11-17T10:00-08:00",
-   "end": "2026-11-17T12:00-08:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "Fabulich Center, 3600 Port of Tacoma Rd, Tacoma, WA 98424",
-   "notes": "Regular Commission Meeting.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://www.portoftacoma.com/commission-meetings"
-  },
-  {
-   "id": "marex-9ee1be2a00fe",
-   "title": "Port of Seattle — Commission Meeting",
-   "start": "2026-11-17T12:00-08:00",
-   "end": "2026-11-17T14:00-08:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "",
-   "notes": "Regular Commission Meeting.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://meetings.portseattle.org/"
-  },
-  {
-   "id": "marex-decce26906fd",
-   "title": "Port of Bellingham — Commission Meeting",
-   "start": "2026-11-17T16:00-08:00",
-   "end": "2026-11-17T18:00-08:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "Port Commission Chambers, 1801 Roeder Ave, Bellingham, WA",
-   "notes": "Board of Commissioners Open Public Meeting.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://www.portofbellingham.com/calendar.aspx"
-  },
   {
    "id": "marex-f853a29574dd",
    "title": "WDFW — Puget Sound Dungeness Crab Catch Record Card Public Meeting",

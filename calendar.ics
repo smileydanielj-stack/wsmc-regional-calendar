@@ -6,55 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:WSMC Regional Maritime & Response Calendar
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-UID:naces-fd827f39fc3a@wsmcoop.org
-DTSTAMP:20261124T003856Z
-DTSTART:20261117T170000Z
-DTEND:20261117T190000Z
-SUMMARY:Puget Sound Naval Shipyard Mobile DPX
-DESCRIPTION:Deployment Source: WA Ecology NACES https://apps.ecology.wa.g
- ov/naces/
-CATEGORIES:Drills & Exercises
-LOCATION:Sinclair Inlet Pier D.
-URL:https://apps.ecology.wa.gov/naces/
-END:VEVENT
-BEGIN:VEVENT
-UID:marex-8f4597059aff@wsmcoop.org
-DTSTAMP:20261124T003856Z
-DTSTART:20261117T180000Z
-DTEND:20261117T200000Z
-SUMMARY:Port of Tacoma — Regular Commission Meeting
-DESCRIPTION:Regular Commission Meeting. Source: Marine Exchange of Puget 
- Sound https://www.portoftacoma.com/commission-meetings
-CATEGORIES:Port Meetings
-LOCATION:Fabulich Center\, 3600 Port of Tacoma Rd\, Tacoma\, WA 98424
-URL:https://www.portoftacoma.com/commission-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:marex-9ee1be2a00fe@wsmcoop.org
-DTSTAMP:20261124T003856Z
-DTSTART:20261117T200000Z
-DTEND:20261117T220000Z
-SUMMARY:Port of Seattle — Commission Meeting
-DESCRIPTION:Regular Commission Meeting. Source: Marine Exchange of Puget 
- Sound https://meetings.portseattle.org/
-CATEGORIES:Port Meetings
-URL:https://meetings.portseattle.org/
-END:VEVENT
-BEGIN:VEVENT
-UID:marex-decce26906fd@wsmcoop.org
-DTSTAMP:20261124T003856Z
-DTSTART:20261118T000000Z
-DTEND:20261118T020000Z
-SUMMARY:Port of Bellingham — Commission Meeting
-DESCRIPTION:Board of Commissioners Open Public Meeting. Source: Marine Ex
- change of Puget Sound https://www.portofbellingham.com/calendar.aspx
-CATEGORIES:Port Meetings
-LOCATION:Port Commission Chambers\, 1801 Roeder Ave\, Bellingham\, WA
-URL:https://www.portofbellingham.com/calendar.aspx
-END:VEVENT
-BEGIN:VEVENT
 UID:marex-f853a29574dd@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261119T010000Z
 DTEND:20261119T023000Z
 SUMMARY:WDFW — Puget Sound Dungeness Crab Catch Record Card Public Meet
@@ -69,7 +22,7 @@ URL:https://wdfw.wa.gov/events
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-aff32c4d1962@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261122
 SUMMARY:Pacific Marine Expo 2026
@@ -84,7 +37,7 @@ URL:https://www.pacificmarineexpo.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-a85ed4f734e7@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261122
 SUMMARY:WDFW Fish & Wildlife Commission Meeting
@@ -97,7 +50,7 @@ URL:https://wdfw.wa.gov/about/commission/meetings/2026
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-b9e95b1ae99b@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261119T160000Z
 DTEND:20261120T010000Z
 SUMMARY:Maxum Petroleum WCD
@@ -109,7 +62,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-97951c47b445@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261119T160000Z
 DTEND:20261119T230000Z
 SUMMARY:Oil Spill Task Force Annual Meeting
@@ -120,7 +73,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-736ef5ccefea@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261119T190000Z
 DTEND:20261119T210000Z
 SUMMARY:WA Board of Pilotage Commissioners — Public Meeting
@@ -133,7 +86,7 @@ URL:https://pilotage.wa.gov/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-206bb51aa3bd@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261120T020000Z
 DTEND:20261120T033000Z
 SUMMARY:Port of Anacortes — Regular Commission Meeting
@@ -145,7 +98,7 @@ URL:https://www.portofanacortes.com/governance/commission-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-407d20acae88@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261120T160000Z
 DTEND:20261120T173000Z
 SUMMARY:Seattle Propeller Club — Maritime Industry Economic Forecast Br
@@ -162,7 +115,7 @@ URL:https://www.seattlepropellerclub.org/economic-forecast-breakfast
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-fc1a8870763a@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261123T200000Z
 DTEND:20261123T220000Z
 SUMMARY:Port of Seattle — Special Commission Meeting
@@ -174,7 +127,7 @@ URL:https://meetings.portseattle.org/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-db4d9e32953d@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261124T000000Z
 DTEND:20261124T020000Z
 SUMMARY:Port of Olympia — Commission Meeting
@@ -187,7 +140,7 @@ URL:https://portolympia.com/commission/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-e97d72f20b75@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261124T170000Z
 DTEND:20261124T190000Z
 SUMMARY:Port of Longview — Regular Commission Meeting
@@ -200,7 +153,7 @@ URL:https://www.portoflongview.com/157/Commission-Meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-7e8d1b3c0daf@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261124T170000Z
 DTEND:20261124T190000Z
 SUMMARY:Port of Port Angeles — Commission Meeting
@@ -211,7 +164,7 @@ URL:https://portofpa.com/about-us/port-commission/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-7e1b233bcf4f@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261124T173000Z
 DTEND:20261124T193000Z
 SUMMARY:Port of Vancouver USA — Commission Meeting
@@ -222,7 +175,7 @@ URL:https://www.portvanusa.com/commission/agendas-minutes/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-b4b91a1d0ce4@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261126T013000Z
 DTEND:20261126T033000Z
 SUMMARY:Port of Kalama — Commission Meeting
@@ -234,7 +187,7 @@ URL:https://portofkalama.com/discover-the-port/board-of-commissioners/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-91defa064684@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261130T170000Z
 DTEND:20261130T210000Z
 SUMMARY:Phillips 66 Ferndale Refinery DPX
@@ -246,7 +199,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-2183c842f9f6@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261201T170000Z
 DTEND:20261201T180000Z
 SUMMARY:NelsonReisner Mobile DPX
@@ -258,7 +211,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-ae38865153db@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261201T193000Z
 DTEND:20261201T213000Z
 SUMMARY:Northwest Seaport Alliance — Managing Members Meeting
@@ -269,7 +222,7 @@ URL:https://www.nwseaportalliance.com/about-us/governance
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-2a331b2f1c2e@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261202T160000Z
 DTEND:20261203T000000Z
 SUMMARY:Clean Harbors Mobile TTX
@@ -281,7 +234,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-76cd4a0f288f@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261202T160000Z
 DTEND:20261202T220000Z
 SUMMARY:Marine Vacuum Service\, Inc. Mobile DPX TTX
@@ -297,7 +250,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-39e54e144202@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261203T170000Z
 DTEND:20261203T200000Z
 SUMMARY:Naval Base Kitsap - Manchester Mobile TTX
@@ -310,7 +263,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-3d6ce1f33ea4@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261204T020000Z
 DTEND:20261204T033000Z
 SUMMARY:Port of Anacortes — Regular Commission Meeting
@@ -322,7 +275,7 @@ URL:https://www.portofanacortes.com/governance/commission-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-3f86d5290254@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Port of Everett — Holiday on the Bay
@@ -336,7 +289,7 @@ URL:https://www.portofeverett.com/calendar.php
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-34780246330c@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261205T190000Z
 DTEND:20261206T010000Z
 SUMMARY:Port of Bellingham — Holiday Port 2026
@@ -349,7 +302,7 @@ URL:https://www.portofbellingham.com/calendar.aspx
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-9e7056315003@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261206T190000Z
 DTEND:20261207T010000Z
 SUMMARY:Port of Bellingham — Holiday Port 2026
@@ -362,7 +315,7 @@ URL:https://www.portofbellingham.com/calendar.aspx
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-b06bc31c5507@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261208T170000Z
 DTEND:20261209T000000Z
 SUMMARY:Coleman Oil Company Mobile TTX
@@ -374,7 +327,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-913b206176cc@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261208T170000Z
 DTEND:20261208T190000Z
 SUMMARY:Port of Grays Harbor — Commission Meeting
@@ -386,7 +339,7 @@ URL:https://www.portofgraysharbor.com/commission
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-f5f9eeedec04@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261208T170000Z
 DTEND:20261208T190000Z
 SUMMARY:Port of Port Angeles — Commission Meeting
@@ -397,7 +350,7 @@ URL:https://portofpa.com/about-us/port-commission/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-086a7e1ec33c@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261208T173000Z
 DTEND:20261208T193000Z
 SUMMARY:Port of Vancouver USA — Commission Meeting
@@ -408,7 +361,7 @@ URL:https://www.portvanusa.com/commission/agendas-minutes/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-272e1224714d@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261208T180000Z
 DTEND:20261208T200000Z
 SUMMARY:Port of Tacoma — Free Public Bus Tour
@@ -422,7 +375,7 @@ URL:https://www.portoftacoma.com/events/free-public-bus-tour-8
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-1b4966ae8d11@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261208T200000Z
 DTEND:20261208T220000Z
 SUMMARY:Port of Seattle — Commission Meeting
@@ -433,7 +386,7 @@ URL:https://meetings.portseattle.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-63a3c32791f9@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261209T020000Z
 DTEND:20261209T033000Z
 SUMMARY:Seattle Maritime Academy — Information Session & Tour
@@ -451,7 +404,7 @@ URL:https://maritime.seattlecentral.edu/tours-and-information
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-3c14f0555792@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261212
 SUMMARY:WPPA Winter Meeting (formerly Annual Meeting)
@@ -464,7 +417,7 @@ URL:https://www.washingtonports.org/events/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-3bc06629e784@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261209T160000Z
 DTEND:20261210T000000Z
 SUMMARY:REG Grays Harbor TTX
@@ -475,7 +428,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-cb5331387b33@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261209T210000Z
 DTEND:20261209T230000Z
 SUMMARY:WA Ecology — Natural Resource Damage Assessment (RDA) Committee
@@ -491,7 +444,7 @@ URL:https://ecology.wa.gov/events/spills/natural-resource-damage-assessme
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-7cf13291c418@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261210T013000Z
 DTEND:20261210T033000Z
 SUMMARY:Port of Kalama — Commission Meeting
@@ -503,7 +456,7 @@ URL:https://portofkalama.com/discover-the-port/board-of-commissioners/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-429c9c2c7f0a@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261210T160000Z
 DTEND:20261210T200000Z
 SUMMARY:Navy Region Northwest TTX
@@ -515,7 +468,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-134bf25c0b3d@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261210T160000Z
 DTEND:20261210T230000Z
 SUMMARY:TransMountain DPX
@@ -527,7 +480,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-c9b735ff8a5d@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261210T190000Z
 DTEND:20261210T210000Z
 SUMMARY:WA Board of Pilotage Commissioners — Public Meeting
@@ -540,7 +493,7 @@ URL:https://pilotage.wa.gov/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-65b55fe53052@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:WDFW Fish & Wildlife Commission Meeting
@@ -553,7 +506,7 @@ URL:https://wdfw.wa.gov/about/commission/meetings/2026
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-726c21d3305c@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261214T160000Z
 DTEND:20261215T000000Z
 SUMMARY:Coleman Oil Company Mobile GRP DPX
@@ -564,7 +517,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-ac880e93053c@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261214T170000Z
 DTEND:20261214T210000Z
 SUMMARY:Phillips 66 Ferndale Refinery DPX
@@ -576,7 +529,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-9bf169a2a7c9@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261215T000000Z
 DTEND:20261215T020000Z
 SUMMARY:Port of Olympia — Commission Meeting
@@ -589,7 +542,7 @@ URL:https://portolympia.com/commission/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-fc83e1cac9f2@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261215T160000Z
 DTEND:20261216T000000Z
 SUMMARY:Coleman Oil Company Mobile GRP DPX
@@ -600,7 +553,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-2a18a6a96ad8@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261215T170000Z
 DTEND:20261215T220000Z
 SUMMARY:Shell Pipeline Company DPX
@@ -611,7 +564,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-f778c92de5cd@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261215T180000Z
 DTEND:20261215T200000Z
 SUMMARY:Port of Tacoma — Regular Commission Meeting
@@ -623,7 +576,7 @@ URL:https://www.portoftacoma.com/commission-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-46c6ed18f91a@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261215T200000Z
 DTEND:20261215T220000Z
 SUMMARY:Port of Everett — Special Commission Meeting (Hybrid)
@@ -636,7 +589,7 @@ URL:https://www.portofeverett.com/calendar.php
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-9a1d904fd16a@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261215T200000Z
 DTEND:20261215T220000Z
 SUMMARY:Port of Seattle — Commission Meeting
@@ -647,7 +600,7 @@ URL:https://meetings.portseattle.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-42a1523a895e@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261216T000000Z
 DTEND:20261216T020000Z
 SUMMARY:Port of Bellingham — Commission Meeting
@@ -659,7 +612,7 @@ URL:https://www.portofbellingham.com/calendar.aspx
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-dd39d1dd19e8@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261216T170000Z
 DTEND:20261216T180000Z
 SUMMARY:PetroCard Mobile DPX
@@ -671,7 +624,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-b6a8d6eff495@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261216T170000Z
 DTEND:20261216T190000Z
 SUMMARY:Port of Longview — Regular Commission Meeting
@@ -684,7 +637,7 @@ URL:https://www.portoflongview.com/157/Commission-Meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-ae3d682443a2@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261217T190000Z
 DTEND:20261217T230000Z
 SUMMARY:Maxum Petroleum GRP DPX
@@ -696,7 +649,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-36f7f10d271f@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261218T020000Z
 DTEND:20261218T033000Z
 SUMMARY:Port of Anacortes — Regular Commission Meeting
@@ -708,7 +661,7 @@ URL:https://www.portofanacortes.com/governance/commission-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-fe2adefdbddb@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261222T170000Z
 DTEND:20261222T190000Z
 SUMMARY:Port of Port Angeles — Commission Meeting
@@ -719,7 +672,7 @@ URL:https://portofpa.com/about-us/port-commission/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-c33713e74c92@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261222T173000Z
 DTEND:20261222T193000Z
 SUMMARY:Port of Vancouver USA — Commission Meeting
@@ -730,7 +683,7 @@ URL:https://www.portvanusa.com/commission/agendas-minutes/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-25e2c492a2cc@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20261224T013000Z
 DTEND:20261224T033000Z
 SUMMARY:Port of Kalama — Commission Meeting
@@ -742,7 +695,7 @@ URL:https://portofkalama.com/discover-the-port/board-of-commissioners/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-12b3b9edc4f7@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270105T193000Z
 DTEND:20270105T213000Z
 SUMMARY:Northwest Seaport Alliance — Managing Members Meeting
@@ -753,7 +706,7 @@ URL:https://www.nwseaportalliance.com/about-us/governance
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-62efbf7905e4@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270108T020000Z
 DTEND:20270108T033000Z
 SUMMARY:Port of Anacortes — Regular Commission Meeting
@@ -765,7 +718,7 @@ URL:https://www.portofanacortes.com/governance/commission-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-237768e16064@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270112T000000Z
 DTEND:20270112T020000Z
 SUMMARY:Port of Olympia — Commission Meeting
@@ -778,7 +731,7 @@ URL:https://portolympia.com/commission/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-405a50e8f947@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270112T170000Z
 DTEND:20270112T190000Z
 SUMMARY:Port of Grays Harbor — Commission Meeting
@@ -790,7 +743,7 @@ URL:https://www.portofgraysharbor.com/commission
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-4b92c8f9d1ce@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270112T170000Z
 DTEND:20270112T190000Z
 SUMMARY:Port of Port Angeles — Commission Meeting
@@ -801,7 +754,7 @@ URL:https://portofpa.com/about-us/port-commission/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-ac3afc3b8422@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270112T173000Z
 DTEND:20270112T193000Z
 SUMMARY:Port of Vancouver USA — Commission Meeting
@@ -812,7 +765,7 @@ URL:https://www.portvanusa.com/commission/agendas-minutes/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-21c199d74678@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270112T200000Z
 DTEND:20270112T220000Z
 SUMMARY:Port of Seattle — Commission Meeting
@@ -823,7 +776,7 @@ URL:https://meetings.portseattle.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-4a7eb38cadde@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270113T020000Z
 DTEND:20270113T033000Z
 SUMMARY:Seattle Maritime Academy — Information Session & Tour
@@ -841,7 +794,7 @@ URL:https://maritime.seattlecentral.edu/tours-and-information
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-32658653b189@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270114T013000Z
 DTEND:20270114T033000Z
 SUMMARY:Port of Kalama — Commission Meeting
@@ -853,7 +806,7 @@ URL:https://portofkalama.com/discover-the-port/board-of-commissioners/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-f60a4ef047b1@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270119T200000Z
 DTEND:20270119T220000Z
 SUMMARY:Port of Tacoma — Regular Commission Meeting
@@ -864,7 +817,7 @@ URL:https://www.portoftacoma.com/commission-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-20ffde353934@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270121T170000Z
 DTEND:20270121T190000Z
 SUMMARY:WA Board of Pilotage Commissioners — Public Meeting
@@ -876,7 +829,7 @@ URL:https://pilotage.wa.gov/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-8a9fc49279fc@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270122T020000Z
 DTEND:20270122T033000Z
 SUMMARY:Port of Anacortes — Regular Commission Meeting
@@ -888,7 +841,7 @@ URL:https://www.portofanacortes.com/governance/commission-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-787f99f8a9f9@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270126T000000Z
 DTEND:20270126T020000Z
 SUMMARY:Port of Olympia — Commission Meeting
@@ -901,7 +854,7 @@ URL:https://portolympia.com/commission/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-3ebeddbdb1ec@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270126T170000Z
 DTEND:20270126T190000Z
 SUMMARY:Port of Port Angeles — Commission Meeting
@@ -912,7 +865,7 @@ URL:https://portofpa.com/about-us/port-commission/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-44f50441cdca@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270126T173000Z
 DTEND:20270126T193000Z
 SUMMARY:Port of Vancouver USA — Commission Meeting
@@ -923,7 +876,7 @@ URL:https://www.portvanusa.com/commission/agendas-minutes/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-056c3baffda6@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270126T200000Z
 DTEND:20270126T220000Z
 SUMMARY:Port of Seattle — Commission Meeting
@@ -934,7 +887,7 @@ URL:https://meetings.portseattle.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-1b256bd2a65f@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270128T013000Z
 DTEND:20270128T033000Z
 SUMMARY:Port of Kalama — Commission Meeting
@@ -946,7 +899,7 @@ URL:https://portofkalama.com/discover-the-port/board-of-commissioners/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-efa8a98d647a@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270129T003000Z
 DTEND:20270129T040000Z
 SUMMARY:MXPS Holiday Party & Open House!
@@ -959,7 +912,7 @@ URL:https://marexps.com/wa-maritime-calendar/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-8ad26a945c28@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270202T193000Z
 DTEND:20270202T213000Z
 SUMMARY:Northwest Seaport Alliance — Managing Members Meeting
@@ -973,7 +926,7 @@ URL:https://www.nwseaportalliance.com/about-us/governance
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-c6b4f0596396@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270205T020000Z
 DTEND:20270205T033000Z
 SUMMARY:Port of Anacortes — Regular Commission Meeting
@@ -986,7 +939,7 @@ URL:https://www.portofanacortes.com/governance/commission-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-6b362bb190df@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270209T000000Z
 DTEND:20270209T020000Z
 SUMMARY:Port of Olympia — Commission Meeting
@@ -1000,7 +953,7 @@ URL:https://portolympia.com/commission/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-05ab5363771f@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270209T170000Z
 DTEND:20270209T190000Z
 SUMMARY:Port of Grays Harbor — Commission Meeting
@@ -1013,7 +966,7 @@ URL:https://www.portofgraysharbor.com/commission
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-66faa8880cae@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270209T170000Z
 DTEND:20270209T190000Z
 SUMMARY:Port of Port Angeles — Commission Meeting
@@ -1026,7 +979,7 @@ URL:https://portofpa.com/about-us/port-commission/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-614ed1ea947b@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270209T173000Z
 DTEND:20270209T193000Z
 SUMMARY:Port of Vancouver USA — Commission Meeting
@@ -1039,7 +992,7 @@ URL:https://www.portvanusa.com/commission/agendas-minutes/
 END:VEVENT
 BEGIN:VEVENT
 UID:marexc-0cf04f5cea2b@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270209T190000Z
 SUMMARY:Puget Sound Marine Firefighting Commission — Meeting
 DESCRIPTION:Meeting of the Puget Sound Marine Firefighting Commission. Th
@@ -1052,7 +1005,7 @@ URL:https://marexps.com/puget-sound-marine-firefighting-commission/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-93e80e42e082@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270209T200000Z
 DTEND:20270209T220000Z
 SUMMARY:Port of Seattle — Commission Meeting
@@ -1066,7 +1019,7 @@ URL:https://meetings.portseattle.org/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-04e8572fb29a@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270210T020000Z
 DTEND:20270210T033000Z
 SUMMARY:Seattle Maritime Academy — Information Session & Tour
@@ -1083,7 +1036,7 @@ URL:https://maritime.seattlecentral.edu/tours-and-information
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-2b0480353f4e@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270211T013000Z
 DTEND:20270211T033000Z
 SUMMARY:Port of Kalama — Commission Meeting
@@ -1096,7 +1049,7 @@ URL:https://portofkalama.com/discover-the-port/board-of-commissioners/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-1cdeb668b4b4@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270216T180000Z
 DTEND:20270216T200000Z
 SUMMARY:Port of Tacoma — Regular Commission Meeting
@@ -1109,7 +1062,7 @@ URL:https://portal.veconnect.us/p/portoftacoma
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-35a6d1326312@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270219T020000Z
 DTEND:20270219T033000Z
 SUMMARY:Port of Anacortes — Regular Commission Meeting
@@ -1122,7 +1075,7 @@ URL:https://www.portofanacortes.com/governance/commission-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-4ec20e9121c9@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270223T000000Z
 DTEND:20270223T020000Z
 SUMMARY:Port of Olympia — Commission Meeting
@@ -1136,7 +1089,7 @@ URL:https://portolympia.com/commission/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-127d4685386f@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270223T170000Z
 DTEND:20270223T190000Z
 SUMMARY:Port of Port Angeles — Commission Meeting
@@ -1149,7 +1102,7 @@ URL:https://portofpa.com/about-us/port-commission/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-c2e6236b5d65@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270223T173000Z
 DTEND:20270223T193000Z
 SUMMARY:Port of Vancouver USA — Commission Meeting
@@ -1162,7 +1115,7 @@ URL:https://www.portvanusa.com/commission/agendas-minutes/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-a767ecde2d15@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270223T200000Z
 DTEND:20270223T220000Z
 SUMMARY:Port of Seattle — Commission Meeting
@@ -1176,7 +1129,7 @@ URL:https://meetings.portseattle.org/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-6dcef80086ed@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270225T013000Z
 DTEND:20270225T033000Z
 SUMMARY:Port of Kalama — Commission Meeting
@@ -1189,7 +1142,7 @@ URL:https://portofkalama.com/discover-the-port/board-of-commissioners/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-380b52e14934@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270302T193000Z
 DTEND:20270302T213000Z
 SUMMARY:Northwest Seaport Alliance — Managing Members Meeting
@@ -1203,7 +1156,7 @@ URL:https://www.nwseaportalliance.com/about-us/governance
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-3a0f350e6200@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270304T160000Z
 DTEND:20270305T000000Z
 SUMMARY:ECY Spills IMT TTX Training
@@ -1215,7 +1168,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-abdef87d1978@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270305T020000Z
 DTEND:20270305T033000Z
 SUMMARY:Port of Anacortes — Regular Commission Meeting
@@ -1228,7 +1181,7 @@ URL:https://www.portofanacortes.com/governance/commission-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-dc844067c5f6@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270309T000000Z
 DTEND:20270309T020000Z
 SUMMARY:Port of Olympia — Commission Meeting
@@ -1242,7 +1195,7 @@ URL:https://portolympia.com/commission/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-34ae0d35c18c@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270309T170000Z
 DTEND:20270309T190000Z
 SUMMARY:Port of Grays Harbor — Commission Meeting
@@ -1255,7 +1208,7 @@ URL:https://www.portofgraysharbor.com/commission
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-825251aa258d@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270309T170000Z
 DTEND:20270309T190000Z
 SUMMARY:Port of Port Angeles — Commission Meeting
@@ -1268,7 +1221,7 @@ URL:https://portofpa.com/about-us/port-commission/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-ddceb668333d@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270309T173000Z
 DTEND:20270309T193000Z
 SUMMARY:Port of Vancouver USA — Commission Meeting
@@ -1281,7 +1234,7 @@ URL:https://www.portvanusa.com/commission/agendas-minutes/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-d6c6c2bef883@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270309T200000Z
 DTEND:20270309T220000Z
 SUMMARY:Port of Seattle — Commission Meeting
@@ -1295,7 +1248,7 @@ URL:https://meetings.portseattle.org/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-f5c272f3f189@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270310T020000Z
 DTEND:20270310T033000Z
 SUMMARY:Seattle Maritime Academy — Information Session & Tour
@@ -1312,7 +1265,7 @@ URL:https://maritime.seattlecentral.edu/tours-and-information
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-ad1249d16e94@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270310T150000Z
 DTEND:20270310T210000Z
 SUMMARY:TLP/SeaPort Terminal -DPX
@@ -1323,7 +1276,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-89d4d8622b6e@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270311T013000Z
 DTEND:20270311T033000Z
 SUMMARY:Port of Kalama — Commission Meeting
@@ -1336,7 +1289,7 @@ URL:https://portofkalama.com/discover-the-port/board-of-commissioners/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-96a199d318f2@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270311T160000Z
 DTEND:20270312T000000Z
 SUMMARY:ECY Spills IMT TTX
@@ -1348,7 +1301,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-9c6c47c3843a@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270316T170000Z
 DTEND:20270316T190000Z
 SUMMARY:Port of Tacoma — Regular Commission Meeting
@@ -1361,7 +1314,7 @@ URL:https://portal.veconnect.us/p/portoftacoma
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-aa885d428970@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270319T010000Z
 DTEND:20270319T023000Z
 SUMMARY:Port of Anacortes — Regular Commission Meeting
@@ -1374,7 +1327,7 @@ URL:https://www.portofanacortes.com/governance/commission-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-6d8dee693378@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270322T230000Z
 DTEND:20270323T010000Z
 SUMMARY:Port of Olympia — Commission Meeting
@@ -1388,7 +1341,7 @@ URL:https://portolympia.com/commission/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-be1f3c20fc44@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270323T160000Z
 DTEND:20270323T180000Z
 SUMMARY:Port of Port Angeles — Commission Meeting
@@ -1401,7 +1354,7 @@ URL:https://portofpa.com/about-us/port-commission/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-3866ad6bb6e5@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270323T163000Z
 DTEND:20270323T183000Z
 SUMMARY:Port of Vancouver USA — Commission Meeting
@@ -1414,7 +1367,7 @@ URL:https://www.portvanusa.com/commission/agendas-minutes/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-9f5cf8ffbfeb@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270323T190000Z
 DTEND:20270323T210000Z
 SUMMARY:Port of Seattle — Commission Meeting
@@ -1428,7 +1381,7 @@ URL:https://meetings.portseattle.org/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-edc2f86561fb@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270325T003000Z
 DTEND:20270325T023000Z
 SUMMARY:Port of Kalama — Commission Meeting
@@ -1441,7 +1394,7 @@ URL:https://portofkalama.com/discover-the-port/board-of-commissioners/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-b1e5c9ab6931@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270402T010000Z
 DTEND:20270402T023000Z
 SUMMARY:Port of Anacortes — Regular Commission Meeting
@@ -1454,7 +1407,7 @@ URL:https://www.portofanacortes.com/governance/commission-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-c20f9b5964b7@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270406T183000Z
 DTEND:20270406T203000Z
 SUMMARY:Northwest Seaport Alliance — Managing Members Meeting
@@ -1468,7 +1421,7 @@ URL:https://www.nwseaportalliance.com/about-us/governance
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-9ffbbc0d3744@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270412T230000Z
 DTEND:20270413T010000Z
 SUMMARY:Port of Olympia — Commission Meeting
@@ -1482,7 +1435,7 @@ URL:https://portolympia.com/commission/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-8285f09b2a47@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270413T160000Z
 DTEND:20270413T180000Z
 SUMMARY:Port of Grays Harbor — Commission Meeting
@@ -1495,7 +1448,7 @@ URL:https://www.portofgraysharbor.com/commission
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-134124c30e94@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270413T160000Z
 DTEND:20270413T180000Z
 SUMMARY:Port of Port Angeles — Commission Meeting
@@ -1508,7 +1461,7 @@ URL:https://portofpa.com/about-us/port-commission/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-f29d7c3bfb75@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270413T163000Z
 DTEND:20270413T183000Z
 SUMMARY:Port of Vancouver USA — Commission Meeting
@@ -1521,7 +1474,7 @@ URL:https://www.portvanusa.com/commission/agendas-minutes/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-3af35b0c6377@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270413T190000Z
 DTEND:20270413T210000Z
 SUMMARY:Port of Seattle — Commission Meeting
@@ -1535,7 +1488,7 @@ URL:https://meetings.portseattle.org/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-6dd7b52ba82f@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270414T010000Z
 DTEND:20270414T023000Z
 SUMMARY:Seattle Maritime Academy — Information Session & Tour
@@ -1552,7 +1505,7 @@ URL:https://maritime.seattlecentral.edu/tours-and-information
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-e87957d196c2@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270414T150000Z
 DTEND:20270414T220000Z
 SUMMARY:Phillips 66 - Tacoma Terminal TTX/DPX
@@ -1563,7 +1516,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-62397eb5f569@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270415T003000Z
 DTEND:20270415T023000Z
 SUMMARY:Port of Kalama — Commission Meeting
@@ -1576,7 +1529,7 @@ URL:https://portofkalama.com/discover-the-port/board-of-commissioners/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-47238c6272fa@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270415T150000Z
 DTEND:20270415T220000Z
 SUMMARY:Phillips 66 - Renton Terminal TTX/DPX
@@ -1587,7 +1540,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-f32c8cd6cc47@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270416T010000Z
 DTEND:20270416T023000Z
 SUMMARY:Port of Anacortes — Regular Commission Meeting
@@ -1600,7 +1553,7 @@ URL:https://www.portofanacortes.com/governance/commission-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-161d9dcdca3f@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270420T170000Z
 DTEND:20270420T190000Z
 SUMMARY:Port of Tacoma — Regular Commission Meeting
@@ -1613,7 +1566,7 @@ URL:https://portal.veconnect.us/p/portoftacoma
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-b765ccae1408@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270426T230000Z
 DTEND:20270427T010000Z
 SUMMARY:Port of Olympia — Commission Meeting
@@ -1627,7 +1580,7 @@ URL:https://portolympia.com/commission/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-629ad81e80eb@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270427T160000Z
 DTEND:20270427T180000Z
 SUMMARY:Port of Port Angeles — Commission Meeting
@@ -1640,7 +1593,7 @@ URL:https://portofpa.com/about-us/port-commission/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-e8b7bca87c1f@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270427T163000Z
 DTEND:20270427T183000Z
 SUMMARY:Port of Vancouver USA — Commission Meeting
@@ -1653,7 +1606,7 @@ URL:https://www.portvanusa.com/commission/agendas-minutes/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-738fca2281fd@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270427T190000Z
 DTEND:20270427T210000Z
 SUMMARY:Port of Seattle — Commission Meeting
@@ -1667,7 +1620,7 @@ URL:https://meetings.portseattle.org/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-8365899b7325@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270429T003000Z
 DTEND:20270429T023000Z
 SUMMARY:Port of Kalama — Commission Meeting
@@ -1680,7 +1633,7 @@ URL:https://portofkalama.com/discover-the-port/board-of-commissioners/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-5982763cdd92@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270504T183000Z
 DTEND:20270504T203000Z
 SUMMARY:Northwest Seaport Alliance — Managing Members Meeting
@@ -1694,7 +1647,7 @@ URL:https://www.nwseaportalliance.com/about-us/governance
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-3ba406bd8e3d@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270507T010000Z
 DTEND:20270507T023000Z
 SUMMARY:Port of Anacortes — Regular Commission Meeting
@@ -1707,7 +1660,7 @@ URL:https://www.portofanacortes.com/governance/commission-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-306e7df138ca@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270507T150000Z
 DTEND:20270507T160000Z
 SUMMARY:Seattle Propeller Club — Seattle Maritime Day Breakfast
@@ -1722,7 +1675,7 @@ URL:https://www.seattlepropellerclub.org/events
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-a9bf2de1d8c1@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270511T160000Z
 DTEND:20270511T200000Z
 SUMMARY:Union Pacific Railroad DPX
@@ -1734,7 +1687,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:marexc-396d729a8dab@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270511T180000Z
 SUMMARY:Puget Sound Marine Firefighting Commission — Meeting
 DESCRIPTION:Meeting of the Puget Sound Marine Firefighting Commission. Th
@@ -1747,7 +1700,7 @@ URL:https://marexps.com/puget-sound-marine-firefighting-commission/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-10c9d935e7bb@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270512T150000Z
 DTEND:20270512T230000Z
 SUMMARY:Kinder Morgan OR WCD
@@ -1760,7 +1713,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-627196bc2f76@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270512T150000Z
 DTEND:20270513T000000Z
 SUMMARY:Union Pacific Railroad WCD
@@ -1773,7 +1726,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-2ecd6a93f8a1@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART;VALUE=DATE:20270603
 DTEND;VALUE=DATE:20270604
 SUMMARY:MXPS John Veentjer Youth Maritime Scholarship Fundraiser
@@ -1784,7 +1737,7 @@ URL:https://marexps.com/wa-maritime-calendar/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-2fa9aa1edaee@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270614T200000Z
 DTEND:20270615T000000Z
 SUMMARY:Phillips 66- Moses Lake TTX
@@ -1795,7 +1748,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-fbdbaabb8ffc@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270615T150000Z
 DTEND:20270615T190000Z
 SUMMARY:Phillips 66- Moses Lake DPX
@@ -1806,7 +1759,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-04a4022df7fe@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270616T200000Z
 DTEND:20270617T000000Z
 SUMMARY:Phillips 66- Spokane TTX
@@ -1817,7 +1770,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-f58a316ffaea@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270617T150000Z
 DTEND:20270617T190000Z
 SUMMARY:Phillips 66- Spokane DPX
@@ -1828,7 +1781,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-a522bdeadc19@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270623T190000Z
 DTEND:20270624T230000Z
 SUMMARY:Phillips 66 - Portland Terminal OR WCD
@@ -1841,7 +1794,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-d1ab47941193@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270728T150000Z
 DTEND:20270728T200000Z
 SUMMARY:TLP/SeaPort Terminal - DPX
@@ -1852,7 +1805,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:marexc-9fddc98bb80f@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270913T180000Z
 SUMMARY:Puget Sound Marine Firefighting Commission — Meeting
 DESCRIPTION:Meeting of the Puget Sound Marine Firefighting Commission. Th
@@ -1865,7 +1818,7 @@ URL:https://marexps.com/puget-sound-marine-firefighting-commission/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-f62bd22609e8@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270915T190000Z
 DTEND:20270915T230000Z
 SUMMARY:Phillips 66 Refinery WCD Reactive Phase
@@ -1878,7 +1831,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-34df70c664ea@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270916T150000Z
 DTEND:20270916T230000Z
 SUMMARY:Phillips 66 Refinery WCD
@@ -1891,7 +1844,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-61fc6b78f34f@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270923T140000Z
 DTEND:20270923T230000Z
 SUMMARY:HF Sinclair WCD
@@ -1903,7 +1856,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:marex-325bd5bd5628@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20270923T180000Z
 DTEND:20270923T203000Z
 SUMMARY:MXPS Annual Meeting
@@ -1916,7 +1869,7 @@ URL:https://marexps.com/wa-maritime-calendar/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-5014d27e806c@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20271005T150000Z
 DTEND:20271005T200000Z
 SUMMARY:TLP/SeaPort Terminal TTX
@@ -1927,7 +1880,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-8c9f9e57076d@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20271014T150000Z
 DTEND:20271014T230000Z
 SUMMARY:Tacoma Rail WCD
@@ -1938,7 +1891,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:wsmc-50ecaa871498@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART;VALUE=DATE:20271019
 DTEND;VALUE=DATE:20271020
 SUMMARY:WSMC 2027 Preparedness Conference: HAZWOPER Refresher
@@ -1951,7 +1904,7 @@ URL:https://www.wsmcoop.org/2026-seminar
 END:VEVENT
 BEGIN:VEVENT
 UID:wsmc-a9933d3d66e1@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART;VALUE=DATE:20271020
 DTEND;VALUE=DATE:20271021
 SUMMARY:WSMC 2027 Preparedness Conference: Training Day\, Evening Recepti
@@ -1965,7 +1918,7 @@ URL:https://www.wsmcoop.org/2026-seminar
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-de0918713932@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20271020T150000Z
 DTEND:20271020T230000Z
 SUMMARY:Tidewater - WCD Drill Training
@@ -1978,7 +1931,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:wsmc-999f619421d5@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART;VALUE=DATE:20271021
 DTEND;VALUE=DATE:20271022
 SUMMARY:WSMC 2027 Preparedness Conference: Conference Day
@@ -1991,7 +1944,7 @@ URL:https://www.wsmcoop.org/2026-seminar
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-d98b36f6252f@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20271021T140000Z
 DTEND:20271022T000000Z
 SUMMARY:Tidewater WCD
@@ -2004,7 +1957,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:naces-22aff6888a59@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20271028T150000Z
 DTEND:20271028T230000Z
 SUMMARY:BP Cherry Point TTX
@@ -2016,7 +1969,7 @@ URL:https://apps.ecology.wa.gov/naces/
 END:VEVENT
 BEGIN:VEVENT
 UID:wsmc-f6a30cc048f3@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART;VALUE=DATE:20271103
 DTEND;VALUE=DATE:20271105
 SUMMARY:WSMC 2027 Worst Case Tabletop Exercise
@@ -2028,7 +1981,7 @@ URL:https://www.wsmcoop.org
 END:VEVENT
 BEGIN:VEVENT
 UID:marexc-06efb8175f83@wsmcoop.org
-DTSTAMP:20261124T003856Z
+DTSTAMP:20261125T004319Z
 DTSTART:20271109T190000Z
 SUMMARY:Puget Sound Marine Firefighting Commission — Meeting
 DESCRIPTION:Meeting of the Puget Sound Marine Firefighting Commission. Th
