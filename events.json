@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T00:43:19+00:00",
+ "generated": "2026-11-26T00:42:07+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -11,7 +11,7 @@
  "sources": {
   "naces": {
    "ok": true,
-   "count": 150
+   "count": 151
   },
   "marex": {
    "ok": true,
@@ -27,20 +27,6 @@
   }
  },
  "events": [
-  {
-   "id": "marex-f853a29574dd",
-   "title": "WDFW — Puget Sound Dungeness Crab Catch Record Card Public Meeting",
-   "start": "2026-11-18T17:00-08:00",
-   "end": "2026-11-18T18:30-08:00",
-   "allDay": false,
-   "category": "regulatory",
-   "subtype": "",
-   "location": "Virtual",
-   "notes": "Virtual public meeting on a proposal to change the non-reporting penalty fee for Puget Sound Dungeness crab catch record cards. Details and how to join:",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://wdfw.wa.gov/events"
-  },
   {
    "id": "marex-aff32c4d1962",
    "title": "Pacific Marine Expo 2026",
@@ -796,6 +782,20 @@
    "source": "marex",
    "sourceLabel": "Marine Exchange of Puget Sound",
    "url": "https://portofkalama.com/discover-the-port/board-of-commissioners/"
+  },
+  {
+   "id": "naces-a6b638f0fad4",
+   "title": "BNSF Railway Company",
+   "start": "2026-12-29T09:00-08:00",
+   "end": "2026-12-29T11:00-08:00",
+   "allDay": false,
+   "category": "drill",
+   "subtype": "Deployment",
+   "location": "Fort Worth, TX",
+   "notes": "",
+   "source": "naces",
+   "sourceLabel": "WA Ecology NACES",
+   "url": "https://apps.ecology.wa.gov/naces/"
   },
   {
    "id": "marex-12b3b9edc4f7",
