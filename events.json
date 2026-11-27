@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T00:42:07+00:00",
+ "generated": "2026-11-27T00:42:45+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -54,62 +54,6 @@
    "source": "marex",
    "sourceLabel": "Marine Exchange of Puget Sound",
    "url": "https://wdfw.wa.gov/about/commission/meetings/2026"
-  },
-  {
-   "id": "naces-b9e95b1ae99b",
-   "title": "Maxum Petroleum WCD",
-   "start": "2026-11-19T08:00-08:00",
-   "end": "2026-11-19T17:00-08:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Worst-case Table Top",
-   "location": "",
-   "notes": "FOS Coordinator, SOS Coordinator, PIO(JIC), Wildlife Response presence requested",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
-  {
-   "id": "naces-97951c47b445",
-   "title": "Oil Spill Task Force Annual Meeting",
-   "start": "2026-11-19T08:00-08:00",
-   "end": "2026-11-19T15:00-08:00",
-   "allDay": false,
-   "category": "drill",
-   "subtype": "Deployment",
-   "location": "",
-   "notes": "",
-   "source": "naces",
-   "sourceLabel": "WA Ecology NACES",
-   "url": "https://apps.ecology.wa.gov/naces/"
-  },
-  {
-   "id": "marex-736ef5ccefea",
-   "title": "WA Board of Pilotage Commissioners — Public Meeting",
-   "start": "2026-11-19T11:00-08:00",
-   "end": "2026-11-19T13:00-08:00",
-   "allDay": false,
-   "category": "regulatory",
-   "subtype": "",
-   "location": "2901 Third Ave, Seattle, WA (and virtual)",
-   "notes": "Regular public meeting of the WA Board of Pilotage Commissioners. Meets 3rd Thursday monthly.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://pilotage.wa.gov/meetings"
-  },
-  {
-   "id": "marex-206bb51aa3bd",
-   "title": "Port of Anacortes — Regular Commission Meeting",
-   "start": "2026-11-19T18:00-08:00",
-   "end": "2026-11-19T19:30-08:00",
-   "allDay": false,
-   "category": "port",
-   "subtype": "",
-   "location": "",
-   "notes": "Regular Commission Meeting. Meets 1st and 3rd Thursdays at 6:00 PM.",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://www.portofanacortes.com/governance/commission-meetings/"
   },
   {
    "id": "marex-407d20acae88",
