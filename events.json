@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T00:42:45+00:00",
+ "generated": "2026-11-28T00:40:37+00:00",
  "timezone": "America/Los_Angeles",
  "categories": {
   "wsmc": "WSMC",
@@ -54,20 +54,6 @@
    "source": "marex",
    "sourceLabel": "Marine Exchange of Puget Sound",
    "url": "https://wdfw.wa.gov/about/commission/meetings/2026"
-  },
-  {
-   "id": "marex-407d20acae88",
-   "title": "Seattle Propeller Club — Maritime Industry Economic Forecast Breakfast",
-   "start": "2026-11-20T08:00-08:00",
-   "end": "2026-11-20T09:30-08:00",
-   "allDay": false,
-   "category": "industry",
-   "subtype": "",
-   "location": "Seattle Convention Center Arch Building, 705 Pike St, Seattle, WA 98101",
-   "notes": "Annual Maritime Industry Economic Forecast Breakfast hosted by the Seattle Propeller Club and Port of Seattle at Pacific Marine Expo, looking at the year ahead for the region's maritime and fishing industries. Details and registration:",
-   "source": "marex",
-   "sourceLabel": "Marine Exchange of Puget Sound",
-   "url": "https://www.seattlepropellerclub.org/economic-forecast-breakfast"
   },
   {
    "id": "marex-fc1a8870763a",
